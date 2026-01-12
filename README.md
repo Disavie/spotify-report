@@ -4,6 +4,10 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+c4.5:
+zach idea -> how often do songs get skipped when shuffle is enabled
+? good way to implement?
+
 commit 4: 1/12/26
 anima idea -> skip rates:
 count how often x song skipped
