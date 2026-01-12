@@ -4,6 +4,9 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit 6: 1/12/26
+    fixed pause issue i think -> next time count skips
+
 commit 5: 1/12/26
     PROBLEM: FIX ISSUE WITH PAUSE!!!
 

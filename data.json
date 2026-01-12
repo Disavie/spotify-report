@@ -1,145 +1,33 @@
 {
     "tracks": {
-        "0XrgqlQGZ8CXWSoRkGoCTQ": {
-            "name": "i'm so tired",
-            "seconds_listened": 5.242854118347168,
-            "first_listened": 1768239297.559085,
-            "last_listened": 1768239302.801939,
-            "artist": "MAVI",
-            "album": "shadowbox"
-        },
         "4MdEYuoGhG2RTG3erOiu2H": {
             "name": "Vibes and Stuff",
-            "seconds_listened": 15.63429594039917,
-            "first_listened": 1768239302.801939,
-            "last_listened": 1768239318.436235,
+            "seconds_listened": 383.14157700538635,
+            "first_listened": 1768249187.761899,
+            "last_listened": 1768249897.04489,
             "artist": "A Tribe Called Quest",
             "album": "The Low End Theory"
         },
-        "7tcJBOwxqt3DxhCNuZq3gU": {
-            "name": "PRECIOUS THINGS",
-            "seconds_listened": 258.4284520149231,
-            "first_listened": 1768239318.436235,
-            "last_listened": 1768239576.864687,
-            "artist": "Lupe Fiasco",
-            "album": "DRILL MUSIC IN ZION"
+        "6zrsmzrMoxNkXEQLubCWtA": {
+            "name": "Verses from the Abstract (feat. Vinia Mojica & Ron Carter)",
+            "seconds_listened": 15.19536805152893,
+            "first_listened": 1768249897.045887,
+            "last_listened": 1768249989.825542,
+            "artist": "A Tribe Called Quest",
+            "album": "The Low End Theory"
         },
-        "6wAHgOewMqJMnwWBP3Qeb6": {
-            "name": "We're Outside, Rejoice!",
-            "seconds_listened": 255.90685510635376,
-            "first_listened": 1768239576.864687,
-            "last_listened": 1768239832.771542,
-            "artist": "McKinley Dixon",
-            "album": "Magic, Alive!"
-        },
-        "56sCsLi2iULKchuWnhCsCi": {
-            "name": "Children\u2019s Song",
-            "seconds_listened": 41.93571209907532,
-            "first_listened": 1768239832.772542,
-            "last_listened": 1768239874.708254,
-            "artist": "Vince Staples",
-            "album": "Dark Times"
-        },
-        "4L2FYDnvZtRN2HFtuybB5F": {
-            "name": "WIPE MY TEARS.",
-            "seconds_listened": 52.582590103149414,
-            "first_listened": 1768239874.709174,
-            "last_listened": 1768239927.291764,
-            "artist": "jev.",
-            "album": "when angels cry"
-        },
-        "5JV34AOtX6BD1mJ6gTrxWN": {
-            "name": "Til Eternity",
-            "seconds_listened": 5.632344007492065,
-            "first_listened": 1768240449.766004,
-            "last_listened": 1768240455.398348,
-            "artist": "Lupe Fiasco",
-            "album": "Samurai"
-        },
-        "6zYBZOP6SuKa5JszwpAz7Z": {
-            "name": "ordinary joe (feat. Terry Callier)",
-            "seconds_listened": 5.22606897354126,
-            "first_listened": 1768240709.541871,
-            "last_listened": 1768240714.76794,
-            "artist": "Nujabes",
-            "album": "Modal Soul"
-        },
-        "3hKvzj76LffbRbzdM8Grof": {
-            "name": "Justin",
-            "seconds_listened": 117.11012887954712,
-            "first_listened": 1768240714.76794,
-            "last_listened": 1768240831.878069,
-            "artist": "Vince Staples",
-            "album": "Dark Times"
-        },
-        "0idhCXzizPkiwfUnhM28ld": {
-            "name": "KeepHer (feat. Thundercat)",
-            "seconds_listened": 5.26050591468811,
-            "first_listened": 1768240897.427833,
-            "last_listened": 1768240902.688339,
-            "artist": "NxWorries",
-            "album": "Why Lawd?"
-        },
-        "2dXME00xUY1CRcMZsM3Y4q": {
-            "name": "Paris, Tokyo",
-            "seconds_listened": 2.6901869773864746,
-            "first_listened": 1768240902.688339,
-            "last_listened": 1768240905.378526,
-            "artist": "Lupe Fiasco",
-            "album": "Lupe Fiasco's The Cool"
-        },
-        "3lvyHYECh2QYQcm2pX7iXZ": {
-            "name": "Triple Nickel (feat. MIKE)",
-            "seconds_listened": 79.10993695259094,
-            "first_listened": 1768241194.302361,
-            "last_listened": 1768241273.412298,
-            "artist": "MAVI",
-            "album": "The Pilot"
-        },
-        "3EWaU5exMayFzQMkIfTX7w": {
-            "name": "either on or off the drugs",
-            "seconds_listened": 135.28843212127686,
-            "first_listened": 1768241273.412298,
-            "last_listened": 1768241408.70073,
-            "artist": "JPEGMAFIA",
-            "album": "I LAY DOWN MY LIFE FOR YOU"
-        },
-        "2ej1A2Ze6P2EOW7KfIosZR": {
-            "name": "Feather (feat. Cise Starr & Akin from CYNE)",
-            "seconds_listened": 173.26057696342468,
-            "first_listened": 1768241413.689606,
-            "last_listened": 1768241586.950183,
-            "artist": "Nujabes",
-            "album": "Modal Soul"
-        },
-        "7DyXmACKTAzZX7Jujc1dG9": {
-            "name": "Government Cheese",
-            "seconds_listened": 167.41577696800232,
-            "first_listened": 1768241586.950183,
-            "last_listened": 1768241754.36596,
-            "artist": "Vince Staples",
-            "album": "Dark Times"
-        },
-        "1SKtsG3EsJw75hNMRrCgLm": {
-            "name": "No. 1 Headband",
-            "seconds_listened": 262.1882710456848,
-            "first_listened": 1768241754.366961,
-            "last_listened": 1768242016.555232,
-            "artist": "Lupe Fiasco",
-            "album": "Samurai"
-        },
-        "3uC4r2daXertBxxc8BpbbN": {
-            "name": "Lithonia",
-            "seconds_listened": 83.62468004226685,
-            "first_listened": 1768242016.555232,
-            "last_listened": 1768242100.179912,
-            "artist": "Childish Gambino",
-            "album": "Bando Stone and The New World"
+        "0FMMLKHb74VB0H5u2fP6xo": {
+            "name": "Ease My Mind - Feat. Tre Hardson, Fat Lip & Omni",
+            "seconds_listened": 28.18190622329712,
+            "first_listened": 1768249989.826541,
+            "last_listened": 1768250080.884157,
+            "artist": "Jazz Liberatorz",
+            "album": "Clin D'oeil"
         }
     },
     "dates": {
         "2026-01-12 00:00:00": {
-            "seconds_listened": 823.1374863743782
+            "seconds_listened": 2486.6583309173584
         }
     }
 }

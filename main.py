@@ -109,6 +109,16 @@ def update_data(data, song_id):
 
     return 0
 
+def new_track(_data, current_song_id):
+            #first listen add basic info to data
+                    _data["tracks"][current_song_id] = {
+                        "name" : song.get("name"),
+                        "seconds_listened" : 0,
+                        "first_listened" : current_timestamp(),
+                        "last_listened"  : current_timestamp(),
+                        "artist" : song.get("artists")[0].get("name"),
+                        "album" : song.get("album", {}).get("name", "Unknown")
+                    }
 CURRENT_SONG_URL = "https://api.spotify.com/v1/me/player/currently-playing"
 
 headers = {
@@ -117,6 +127,7 @@ headers = {
 
 _data = opendata()
 current_song_id = -1
+paused = 0
 
 while(1):
     try:
@@ -138,38 +149,72 @@ while(1):
         
 
         #Check for song playing
+
         if r.status_code == 200 and r.content:
+
+            """" debug
+            with open("recent_req.json", "w") as f:
+                json.dump(json.loads(r.content), f, indent=4)
+            """
+            response = json.loads(r.content)
             song = json.loads(r.content).get("item")
+            #print(response.get("is_playing"))
 
-            #if song changed, update the data file THEN change current_song_id
-            if current_song_id != song.get("id"):
+            if not response.get("is_playing"): #pausing
+                if not paused:
+                    update_data(_data, current_song_id)
+                    paused = 1
+
+            if response.get("is_playing"): #unpausing
+                if paused:
+                    _data["tracks"][current_song_id]["last_listened"] = current_timestamp()
+                    paused = 0
+
+            #if song changed, or paused update the data file THEN change current_song_id
+            #update when pasued then dont update again until unpause
+            if current_song_id != song.get("id"): 
                 print("SONG CHANGED!")
-
                 update_data(_data,current_song_id)
 
+                #update song to track if song swapped
+                current_song_id = song.get("id")
+            
+                if current_song_id != -1:
 
-                #update song to track
+                    if current_song_id != -1 and current_song_id not in _data["tracks"]:
+                        new_track(_data, current_song_id)
+
+                    #fix for pausing -> we just started listening so this is now the "last time we listened to it"
+                        _data["tracks"][current_song_id]["last_listened"] = current_timestamp()
+
+
+
                 current_song_id = song.get("id")
 
-            #first listen add basic info to data
-            if current_song_id != -1 and current_song_id not in _data["tracks"]:
-                    _data["tracks"][current_song_id] = {
-                        "name" : song.get("name"),
-                        "seconds_listened" : 0,
-                        "first_listened" : current_timestamp(),
-                        "last_listened"  : current_timestamp(),
-                        "artist" : song.get("artists")[0].get("name"),
-                        "album" : song.get("album", {}).get("name", "Unknown")
-                    }
+
         elif current_song_id != -1: #switched to not playing anything
             update_data(_data, current_song_id)
             current_song_id = -1
             print("RESET SONG ID TO -1")
-        time.sleep(5)
-    except KeyboardInterrupt:
         if current_song_id != -1:
+            print(f"Current track {song.get("name").upper()} is playing:{response.get("is_playing")}")
+        time.sleep(1)
+
+    except KeyboardInterrupt:
+    
+        if current_song_id != -1 and not paused:
             update_data(_data, current_song_id)
         closedata(_data)
+
+        exit()      
+
+    except Exception as e:
+
+        if current_song_id != -1 and not paused:
+            update_data(_data, current_song_id)
+        closedata(_data)
+        print(f"Exception Occured: {e}")
+
         exit()
 
 
