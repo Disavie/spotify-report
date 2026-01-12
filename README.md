@@ -4,6 +4,9 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit 5: 1/12/26
+    PROBLEM: FIX ISSUE WITH PAUSE!!!
+
 c4.5:
 zach idea -> how often do songs get skipped when shuffle is enabled
 ? good way to implement?
