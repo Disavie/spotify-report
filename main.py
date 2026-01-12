@@ -15,6 +15,16 @@ CLIENT_REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI")
 ACCESS_TOKEN = os.getenv("SPOTIFY_ACCESS_TOKEN")
 REFRESH_TOKEN = os.getenv("SPOTIFY_REFRESH_TOKEN")
 
+
+def get_midnight(timestamp):
+    # Convert to datetime
+    dt = datetime.datetime.fromtimestamp(timestamp)
+    # Get midnight of that date
+    midnight_dt = datetime.datetime(dt.year, dt.month, dt.day)
+    dt_str = midnight_dt.strftime("%Y-%m-%d %H:%M:%S")  # format as "2026-01-12 11:42:00"
+    return dt_str
+
+
 def current_timestamp():
     return datetime.datetime.now().timestamp()
 
@@ -82,15 +92,20 @@ def refresh_access_token(refresh_token):
         raise Exception(f"Error refreshing token: {response.text}")
     return response.json()["access_token"]
 
-def update_data(song_id):
+def update_data(data, song_id):
     if song_id == -1:
-        print("WHAT IS THAT MELODY")
         return 1
     
-    curr_min = _data["tracks"][current_song_id].get("seconds_listened")
-    last_lis = _data["tracks"][current_song_id].get("last_listened")
-    _data["tracks"][current_song_id]["seconds_listened"] = curr_min + (current_timestamp() - last_lis)
-    _data["tracks"][current_song_id]["last_listened"] = current_timestamp()
+    #track data
+    curr_min = data["tracks"][current_song_id].get("seconds_listened")
+    last_lis = data["tracks"][current_song_id].get("last_listened")
+    new_secs = curr_min + (current_timestamp() - last_lis)
+    data["tracks"][current_song_id]["seconds_listened"] = new_secs
+    data["tracks"][current_song_id]["last_listened"] = current_timestamp()
+
+    #day's data
+    data["dates"][get_midnight(current_timestamp())]["seconds_listened"] += new_secs
+    print(f'{data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
 
     return 0
 
@@ -105,6 +120,14 @@ current_song_id = -1
 
 while(1):
     try:
+        #add day to "data/dates"
+        date = get_midnight(START_TIME)
+        if date not in _data["dates"]:
+            _data["dates"][date] = {
+                "seconds_listened" : 0
+            }
+
+        #get current song
         r = requests.get(CURRENT_SONG_URL, headers=headers) #Tries the saved token in .env
         if r.status_code in (400,401):
             ACCESS_TOKEN = refresh_access_token(REFRESH_TOKEN)
@@ -122,11 +145,8 @@ while(1):
             if current_song_id != song.get("id"):
                 print("SONG CHANGED!")
 
-                val = update_data(current_song_id)
-                if not val:
-                    print(f"Data updated correctly for id : {current_song_id}")
-                else:
-                    print(f"Cannot update info about id: {current_song_id}")
+                update_data(_data,current_song_id)
+
 
                 #update song to track
                 current_song_id = song.get("id")
@@ -142,19 +162,14 @@ while(1):
                         "album" : song.get("album", {}).get("name", "Unknown")
                     }
         elif current_song_id != -1: #switched to not playing anything
-            update_data(current_song_id)
+            update_data(_data, current_song_id)
             current_song_id = -1
             print("RESET SONG ID TO -1")
         time.sleep(5)
     except KeyboardInterrupt:
         if current_song_id != -1:
-            update_data(current_song_id)
+            update_data(_data, current_song_id)
         closedata(_data)
         exit()
 
-"""
-                minutes_listened = int((current_timestamp() - START_TIME) / 60 * 100) / 100
-                print(f"current song \"{song.get('name')}\" \t {minutes_listened} minutes listened")
-                time.sleep(5)
-"""
 

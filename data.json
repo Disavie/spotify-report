@@ -47,6 +47,99 @@
             "last_listened": 1768239927.291764,
             "artist": "jev.",
             "album": "when angels cry"
+        },
+        "5JV34AOtX6BD1mJ6gTrxWN": {
+            "name": "Til Eternity",
+            "seconds_listened": 5.632344007492065,
+            "first_listened": 1768240449.766004,
+            "last_listened": 1768240455.398348,
+            "artist": "Lupe Fiasco",
+            "album": "Samurai"
+        },
+        "6zYBZOP6SuKa5JszwpAz7Z": {
+            "name": "ordinary joe (feat. Terry Callier)",
+            "seconds_listened": 5.22606897354126,
+            "first_listened": 1768240709.541871,
+            "last_listened": 1768240714.76794,
+            "artist": "Nujabes",
+            "album": "Modal Soul"
+        },
+        "3hKvzj76LffbRbzdM8Grof": {
+            "name": "Justin",
+            "seconds_listened": 117.11012887954712,
+            "first_listened": 1768240714.76794,
+            "last_listened": 1768240831.878069,
+            "artist": "Vince Staples",
+            "album": "Dark Times"
+        },
+        "0idhCXzizPkiwfUnhM28ld": {
+            "name": "KeepHer (feat. Thundercat)",
+            "seconds_listened": 5.26050591468811,
+            "first_listened": 1768240897.427833,
+            "last_listened": 1768240902.688339,
+            "artist": "NxWorries",
+            "album": "Why Lawd?"
+        },
+        "2dXME00xUY1CRcMZsM3Y4q": {
+            "name": "Paris, Tokyo",
+            "seconds_listened": 2.6901869773864746,
+            "first_listened": 1768240902.688339,
+            "last_listened": 1768240905.378526,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's The Cool"
+        },
+        "3lvyHYECh2QYQcm2pX7iXZ": {
+            "name": "Triple Nickel (feat. MIKE)",
+            "seconds_listened": 79.10993695259094,
+            "first_listened": 1768241194.302361,
+            "last_listened": 1768241273.412298,
+            "artist": "MAVI",
+            "album": "The Pilot"
+        },
+        "3EWaU5exMayFzQMkIfTX7w": {
+            "name": "either on or off the drugs",
+            "seconds_listened": 135.28843212127686,
+            "first_listened": 1768241273.412298,
+            "last_listened": 1768241408.70073,
+            "artist": "JPEGMAFIA",
+            "album": "I LAY DOWN MY LIFE FOR YOU"
+        },
+        "2ej1A2Ze6P2EOW7KfIosZR": {
+            "name": "Feather (feat. Cise Starr & Akin from CYNE)",
+            "seconds_listened": 173.26057696342468,
+            "first_listened": 1768241413.689606,
+            "last_listened": 1768241586.950183,
+            "artist": "Nujabes",
+            "album": "Modal Soul"
+        },
+        "7DyXmACKTAzZX7Jujc1dG9": {
+            "name": "Government Cheese",
+            "seconds_listened": 167.41577696800232,
+            "first_listened": 1768241586.950183,
+            "last_listened": 1768241754.36596,
+            "artist": "Vince Staples",
+            "album": "Dark Times"
+        },
+        "1SKtsG3EsJw75hNMRrCgLm": {
+            "name": "No. 1 Headband",
+            "seconds_listened": 262.1882710456848,
+            "first_listened": 1768241754.366961,
+            "last_listened": 1768242016.555232,
+            "artist": "Lupe Fiasco",
+            "album": "Samurai"
+        },
+        "3uC4r2daXertBxxc8BpbbN": {
+            "name": "Lithonia",
+            "seconds_listened": 83.62468004226685,
+            "first_listened": 1768242016.555232,
+            "last_listened": 1768242100.179912,
+            "artist": "Childish Gambino",
+            "album": "Bando Stone and The New World"
+        }
+    },
+    "dates": {
+        "2026-01-12 00:00:00": {
+            "seconds_listened": 823.1374863743782
         }
     }
 }

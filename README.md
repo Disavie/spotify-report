@@ -4,9 +4,86 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
-commit 1:
+
+
+
+commit 3: 1/12/26
+    stores per-track information across sessions
+    stores per-day information (total listening minutes)
+
+-> automatically email report of total minutes listened in the past day and top song
+-> how can i track top song of the day>
+    ->list of songs listened to today
+    ->amount of time spent listening to each today
+ex.
+{
+    today:{ //today's stats, resets
+
+    },
+    tracks:{ //all time stats about all songs listened to
+
+    },
+    dates:{ //history of all past days
+
+    }
+}
+
+---------------------
+for email try this:
+import smtplib
+from email.message import EmailMessage
+import ssl # For a secure connection
+
+# --- Email Credentials and Content ---
+sender_email = "your_email@gmail.com"
+app_password = "your_generated_app_password" # Use the app password, not your normal password
+receiver_email = "recipient_email@example.com"
+subject = "Automated Email from Python"
+body = "This is a simple automated email sent using Python."
+
+# Create the email message object
+msg = EmailMessage()
+msg.set_content(body)
+msg['Subject'] = subject
+msg['From'] = sender_email
+msg['To'] = receiver_email
+
+# --- Send the Email via Gmail's SMTP Server ---
+smtp_server = "smtp.gmail.com"
+smtp_port = 587 # Port for TLS encryption
+
+try:
+    # Create a secure SSL context
+    context = ssl.create_default_context()
+
+    # Connect to the server and start TLS encryption
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+        server.ehlo()  # Optional, but good practice
+        server.starttls(context=context)
+        server.login(sender_email, app_password)
+        server.send_message(msg)
+        print("Email sent successfully!")
+
+except smtplib.SMTPException as e:
+    print(f"Error: {e}")
+except Exception as e:
+    print(f"An unexpected error occurred: {e}")
+
+
+
+commit 2: 1/12/26
+    stores some limited data across sessions
+    bugs?
+-> automatically email a report of:
+     most listened to songs in past 24hrs
+     total minutes listened in past 24hrs
+     top artist over the past 24hrs
+
+     
+commit 1: 1/12/26
     have janky oauth token
     minutes listened since program started
     current song
-
+    
 -> can i get updates of when song changes instead of polling constantly?
+^ i dont think i can do this, i need to constantly poll as far as i can tell

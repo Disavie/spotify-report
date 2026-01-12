@@ -1,0 +1,19 @@
+{
+    "tracks": {
+        "0XrgqlQGZ8CXWSoRkGoCTQ": {
+            "name": "i'm so tired",
+            "seconds_listened": 5.242854118347168,
+            "first_listened": 1768239297.559085,
+            "last_listened": 1768239302.801939,
+            "artist": "MAVI",
+            "album": "shadowbox"
+        },
+    },
+    "dates" :{
+
+        "1/1/2026" :{
+            "seconds_listened" : 0
+        }
+    }
+
+}
