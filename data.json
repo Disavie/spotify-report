@@ -1,0 +1,52 @@
+{
+    "tracks": {
+        "0XrgqlQGZ8CXWSoRkGoCTQ": {
+            "name": "i'm so tired",
+            "seconds_listened": 5.242854118347168,
+            "first_listened": 1768239297.559085,
+            "last_listened": 1768239302.801939,
+            "artist": "MAVI",
+            "album": "shadowbox"
+        },
+        "4MdEYuoGhG2RTG3erOiu2H": {
+            "name": "Vibes and Stuff",
+            "seconds_listened": 15.63429594039917,
+            "first_listened": 1768239302.801939,
+            "last_listened": 1768239318.436235,
+            "artist": "A Tribe Called Quest",
+            "album": "The Low End Theory"
+        },
+        "7tcJBOwxqt3DxhCNuZq3gU": {
+            "name": "PRECIOUS THINGS",
+            "seconds_listened": 258.4284520149231,
+            "first_listened": 1768239318.436235,
+            "last_listened": 1768239576.864687,
+            "artist": "Lupe Fiasco",
+            "album": "DRILL MUSIC IN ZION"
+        },
+        "6wAHgOewMqJMnwWBP3Qeb6": {
+            "name": "We're Outside, Rejoice!",
+            "seconds_listened": 255.90685510635376,
+            "first_listened": 1768239576.864687,
+            "last_listened": 1768239832.771542,
+            "artist": "McKinley Dixon",
+            "album": "Magic, Alive!"
+        },
+        "56sCsLi2iULKchuWnhCsCi": {
+            "name": "Children\u2019s Song",
+            "seconds_listened": 41.93571209907532,
+            "first_listened": 1768239832.772542,
+            "last_listened": 1768239874.708254,
+            "artist": "Vince Staples",
+            "album": "Dark Times"
+        },
+        "4L2FYDnvZtRN2HFtuybB5F": {
+            "name": "WIPE MY TEARS.",
+            "seconds_listened": 52.582590103149414,
+            "first_listened": 1768239874.709174,
+            "last_listened": 1768239927.291764,
+            "artist": "jev.",
+            "album": "when angels cry"
+        }
+    }
+}

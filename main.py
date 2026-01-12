@@ -19,7 +19,16 @@ def current_timestamp():
     return datetime.datetime.now().timestamp()
 
 START_TIME = current_timestamp()
-minutes_listened = 0
+
+
+def opendata():
+    with open("data.json", "r") as f:
+        data = json.load(f)
+    return data
+
+def closedata(data):
+    with open("data.json", "w") as f:
+        json.dump(data, f, indent=4)
 
 def get_access_token():
 
@@ -73,6 +82,17 @@ def refresh_access_token(refresh_token):
         raise Exception(f"Error refreshing token: {response.text}")
     return response.json()["access_token"]
 
+def update_data(song_id):
+    if song_id == -1:
+        print("WHAT IS THAT MELODY")
+        return 1
+    
+    curr_min = _data["tracks"][current_song_id].get("seconds_listened")
+    last_lis = _data["tracks"][current_song_id].get("last_listened")
+    _data["tracks"][current_song_id]["seconds_listened"] = curr_min + (current_timestamp() - last_lis)
+    _data["tracks"][current_song_id]["last_listened"] = current_timestamp()
+
+    return 0
 
 CURRENT_SONG_URL = "https://api.spotify.com/v1/me/player/currently-playing"
 
@@ -80,22 +100,61 @@ headers = {
     "Authorization": f"Bearer {ACCESS_TOKEN}"
 }
 
+_data = opendata()
+current_song_id = -1
+
 while(1):
-    r = requests.get(CURRENT_SONG_URL, headers=headers) #Tries the saved token in .env
-    if r.status_code in (400,401):
-        ACCESS_TOKEN = refresh_access_token(REFRESH_TOKEN)
-        headers = {
-            "Authorization": f"Bearer {ACCESS_TOKEN}"
-        }
-        r = requests.get(CURRENT_SONG_URL, headers=headers)
-    
+    try:
+        r = requests.get(CURRENT_SONG_URL, headers=headers) #Tries the saved token in .env
+        if r.status_code in (400,401):
+            ACCESS_TOKEN = refresh_access_token(REFRESH_TOKEN)
+            headers = {
+                "Authorization": f"Bearer {ACCESS_TOKEN}"
+            }
+            r = requests.get(CURRENT_SONG_URL, headers=headers)
+        
 
-    #Check for song playing
-    if r.status_code == 200 and r.content:
-        song = json.loads(r.content)
-        minutes_listened = int((current_timestamp() - START_TIME) / 60 * 100) / 100
-        print(f"current song \"{song.get('item').get('name')}\" \t {minutes_listened} minutes listened")
-        time.sleep(10)
+        #Check for song playing
+        if r.status_code == 200 and r.content:
+            song = json.loads(r.content).get("item")
 
+            #if song changed, update the data file THEN change current_song_id
+            if current_song_id != song.get("id"):
+                print("SONG CHANGED!")
 
+                val = update_data(current_song_id)
+                if not val:
+                    print(f"Data updated correctly for id : {current_song_id}")
+                else:
+                    print(f"Cannot update info about id: {current_song_id}")
+
+                #update song to track
+                current_song_id = song.get("id")
+
+            #first listen add basic info to data
+            if current_song_id != -1 and current_song_id not in _data["tracks"]:
+                    _data["tracks"][current_song_id] = {
+                        "name" : song.get("name"),
+                        "seconds_listened" : 0,
+                        "first_listened" : current_timestamp(),
+                        "last_listened"  : current_timestamp(),
+                        "artist" : song.get("artists")[0].get("name"),
+                        "album" : song.get("album", {}).get("name", "Unknown")
+                    }
+        elif current_song_id != -1: #switched to not playing anything
+            update_data(current_song_id)
+            current_song_id = -1
+            print("RESET SONG ID TO -1")
+        time.sleep(5)
+    except KeyboardInterrupt:
+        if current_song_id != -1:
+            update_data(current_song_id)
+        closedata(_data)
+        exit()
+
+"""
+                minutes_listened = int((current_timestamp() - START_TIME) / 60 * 100) / 100
+                print(f"current song \"{song.get('name')}\" \t {minutes_listened} minutes listened")
+                time.sleep(5)
+"""
 
