@@ -4,7 +4,14 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
-
+commit 4: 1/12/26
+anima idea -> skip rates:
+count how often x song skipped
+count how often songs of x genre get skipped
+    METHOD: use item/duration_ms in song["item] compare to +/- 5s of when update_data() changes amount of time spent listening to that song
+-> track genres of tracks
+-> track skips of songs
+---> wont directly allow for seeing how often x genre gets skipped but can aggregate these two statistics to see
 
 
 commit 3: 1/12/26
