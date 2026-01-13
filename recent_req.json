@@ -1,21 +1,38 @@
 {
-    "is_playing": false,
-    "timestamp": 1768246036222,
-    "context": null,
-    "progress_ms": 69090,
+    "is_playing": true,
+    "timestamp": 1768309239578,
+    "context": {
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/4cw9rOOSwFJt9TiVgWbPo5"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4cw9rOOSwFJt9TiVgWbPo5",
+        "type": "playlist",
+        "uri": "spotify:playlist:4cw9rOOSwFJt9TiVgWbPo5"
+    },
+    "progress_ms": 14676,
     "item": {
         "album": {
-            "album_type": "album",
+            "album_type": "single",
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/3FUY2gzHeIiaesXtOAdB7A"
+                        "spotify": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t"
                     },
-                    "href": "https://api.spotify.com/v1/artists/3FUY2gzHeIiaesXtOAdB7A",
-                    "id": "3FUY2gzHeIiaesXtOAdB7A",
-                    "name": "Train",
+                    "href": "https://api.spotify.com/v1/artists/78rUTD7y6Cy67W1RVzYs7t",
+                    "id": "78rUTD7y6Cy67W1RVzYs7t",
+                    "name": "PinkPantheress",
                     "type": "artist",
-                    "uri": "spotify:artist:3FUY2gzHeIiaesXtOAdB7A"
+                    "uri": "spotify:artist:78rUTD7y6Cy67W1RVzYs7t"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/07UJz804RJxqNvxFXC3h9H"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/07UJz804RJxqNvxFXC3h9H",
+                    "id": "07UJz804RJxqNvxFXC3h9H",
+                    "name": "Sam Gellaitry",
+                    "type": "artist",
+                    "uri": "spotify:artist:07UJz804RJxqNvxFXC3h9H"
                 }
             ],
             "available_markets": [
@@ -98,7 +115,6 @@
                 "JO",
                 "PS",
                 "IN",
-                "BY",
                 "KZ",
                 "MD",
                 "UA",
@@ -206,44 +222,54 @@
                 "XK"
             ],
             "external_urls": {
-                "spotify": "https://open.spotify.com/album/5zseibu9WEsPaZmkJUMkz1"
+                "spotify": "https://open.spotify.com/album/744TnMqUCSGWPa17iii3LU"
             },
-            "href": "https://api.spotify.com/v1/albums/5zseibu9WEsPaZmkJUMkz1",
-            "id": "5zseibu9WEsPaZmkJUMkz1",
+            "href": "https://api.spotify.com/v1/albums/744TnMqUCSGWPa17iii3LU",
+            "id": "744TnMqUCSGWPa17iii3LU",
             "images": [
                 {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab67616d0000b273bde344cc54eedc35050f4c61",
+                    "url": "https://i.scdn.co/image/ab67616d0000b273897de13d496e00c2d72f8ee1",
                     "width": 640
                 },
                 {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67616d00001e02bde344cc54eedc35050f4c61",
+                    "url": "https://i.scdn.co/image/ab67616d00001e02897de13d496e00c2d72f8ee1",
                     "width": 300
                 },
                 {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab67616d00004851bde344cc54eedc35050f4c61",
+                    "url": "https://i.scdn.co/image/ab67616d00004851897de13d496e00c2d72f8ee1",
                     "width": 64
                 }
             ],
-            "name": "California 37",
-            "release_date": "2012-04-17",
+            "name": "Picture in my mind",
+            "release_date": "2022-08-10",
             "release_date_precision": "day",
-            "total_tracks": 11,
+            "total_tracks": 1,
             "type": "album",
-            "uri": "spotify:album:5zseibu9WEsPaZmkJUMkz1"
+            "uri": "spotify:album:744TnMqUCSGWPa17iii3LU"
         },
         "artists": [
             {
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/3FUY2gzHeIiaesXtOAdB7A"
+                    "spotify": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t"
                 },
-                "href": "https://api.spotify.com/v1/artists/3FUY2gzHeIiaesXtOAdB7A",
-                "id": "3FUY2gzHeIiaesXtOAdB7A",
-                "name": "Train",
+                "href": "https://api.spotify.com/v1/artists/78rUTD7y6Cy67W1RVzYs7t",
+                "id": "78rUTD7y6Cy67W1RVzYs7t",
+                "name": "PinkPantheress",
                 "type": "artist",
-                "uri": "spotify:artist:3FUY2gzHeIiaesXtOAdB7A"
+                "uri": "spotify:artist:78rUTD7y6Cy67W1RVzYs7t"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/07UJz804RJxqNvxFXC3h9H"
+                },
+                "href": "https://api.spotify.com/v1/artists/07UJz804RJxqNvxFXC3h9H",
+                "id": "07UJz804RJxqNvxFXC3h9H",
+                "name": "Sam Gellaitry",
+                "type": "artist",
+                "uri": "spotify:artist:07UJz804RJxqNvxFXC3h9H"
             }
         ],
         "available_markets": [
@@ -326,7 +352,6 @@
             "JO",
             "PS",
             "IN",
-            "BY",
             "KZ",
             "MD",
             "UA",
@@ -434,31 +459,28 @@
             "XK"
         ],
         "disc_number": 1,
-        "duration_ms": 247946,
+        "duration_ms": 176930,
         "explicit": false,
         "external_ids": {
-            "isrc": "USSM11201533"
+            "isrc": "GBAYE2200594"
         },
         "external_urls": {
-            "spotify": "https://open.spotify.com/track/2NniAhAtkRACaMeYt48xlD"
+            "spotify": "https://open.spotify.com/track/0z3YYobsavHguLTgqg5GC1"
         },
-        "href": "https://api.spotify.com/v1/tracks/2NniAhAtkRACaMeYt48xlD",
-        "id": "2NniAhAtkRACaMeYt48xlD",
+        "href": "https://api.spotify.com/v1/tracks/0z3YYobsavHguLTgqg5GC1",
+        "id": "0z3YYobsavHguLTgqg5GC1",
         "is_local": false,
-        "name": "50 Ways to Say Goodbye",
-        "popularity": 70,
+        "name": "Picture in My Mind",
+        "popularity": 65,
         "preview_url": null,
-        "track_number": 5,
+        "track_number": 1,
         "type": "track",
-        "uri": "spotify:track:2NniAhAtkRACaMeYt48xlD"
+        "uri": "spotify:track:0z3YYobsavHguLTgqg5GC1"
     },
     "currently_playing_type": "track",
     "actions": {
         "disallows": {
-            "pausing": true,
-            "toggling_repeat_context": true,
-            "toggling_repeat_track": true,
-            "toggling_shuffle": true
+            "resuming": true
         }
     }
 }

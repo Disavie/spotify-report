@@ -127,9 +127,12 @@ CURRENT_SONG_URL = "https://api.spotify.com/v1/me/player/currently-playing"
 
 def skipped(track,starting_seconds,total_length):
      time_listened = track.get("seconds_listened") - starting_seconds
-     #print(time_listened)
-     #print(total_length)
-     if abs(time_listened - total_length) > 5:
+     #print(f' time listned = {time_listened}')
+     #print(f' total_length = {total_length}')
+     
+
+     if abs(time_listened - total_length) > 15:
+          print("You skipped!")
           return 1
      else:
           return 0
@@ -144,13 +147,14 @@ paused = 0
 last_save_time = current_timestamp()
 time_paused = 0
 seconds_listened_when_track_begin = 0
+duration_s = 0
 
 while(1):
     #autosave
-    if current_timestamp() - last_save_time > 1800: #30 minutes
+    if current_timestamp() - last_save_time > 900: #15 minutes
          last_save_time = current_timestamp()
          closedata(_data)
-         print(f"Autosaving data at {last_save_time}")
+         print(f"--> Autosaving data at {last_save_time}")
 
     #add day to "data/dates"
     date = get_midnight(START_TIME)
@@ -160,13 +164,26 @@ while(1):
         }
 
     #get current song
-    r = requests.get(CURRENT_SONG_URL, headers=headers) #Tries the saved token in .env
-    if r.status_code in (400,401):
-        ACCESS_TOKEN = refresh_access_token(REFRESH_TOKEN)
-        headers = {
-            "Authorization": f"Bearer {ACCESS_TOKEN}"
-        }
-        r = requests.get(CURRENT_SONG_URL, headers=headers, timeout = 10)
+    try:
+        r = requests.get(CURRENT_SONG_URL, headers=headers) #Tries the saved token in .env
+        if r.status_code in (400,401):
+            ACCESS_TOKEN = refresh_access_token(REFRESH_TOKEN)
+            headers = {
+                "Authorization": f"Bearer {ACCESS_TOKEN}"
+            }
+            r = requests.get(CURRENT_SONG_URL, headers=headers, timeout = 10)
+    except Exception as e:
+        print(f"Caught error with url request : {e}")
+        time.sleep(1)
+        continue
+    except KeyboardInterrupt:
+        if current_song_id != -1:
+            update_data(_data, current_song_id)
+            if paused:
+                _data["tracks"][current_song_id]["seconds_listened"] -= current_timestamp() - time_paused        
+        closedata(_data)
+
+        exit()   
     
 
     #Check for song playing
@@ -189,7 +206,8 @@ while(1):
         if response.get("is_playing"): #unpausing
             if paused:
                 tp = current_timestamp() - time_paused
-                _data["tracks"][current_song_id]["seconds_listened"] -= tp 
+                if current_song_id != -1:
+                    _data["tracks"][current_song_id]["seconds_listened"] -= tp 
                 print(f'Unpausing (after {tp} seconds)')
                 paused = 0
 
@@ -203,16 +221,15 @@ while(1):
                 tp = current_timestamp() - time_paused
                 _data["tracks"][current_song_id]["seconds_listened"] -= tp
             update_data(_data,current_song_id)
-            if current_song_id != -1 and skipped(_data["tracks"][current_song_id],seconds_listened_when_track_begin, song.get("duration_ms") / 1000):
+            if current_song_id != -1 and skipped(_data["tracks"][current_song_id],seconds_listened_when_track_begin, duration_s):
                  _data["tracks"][current_song_id]["times_skipped"] += 1
-                 #print("ooh i know that you skipped!!!!")
 
 
 
 
             #update song to track if song swapped
             current_song_id = song.get("id")
-        
+            duration_s = song.get("duration_ms") / 1000
             if current_song_id != -1:
 
 

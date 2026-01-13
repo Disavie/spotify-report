@@ -10,7 +10,8 @@ commit 7: 1/12/26
     counts skips
     genre support in future
 -> do daily mini-wrapped's tomorrow
--> need command line access to request specific info, put main loop into a new thread    
+-> need command line access to request specific info, put main loop into a new thread   
+-> send me an email if program crashes too alongside a crash report 
 
 commit 6: 1/12/26
     fixed pause issue i think -> next time count skips
