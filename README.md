@@ -4,6 +4,11 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit 8: 1/13/26
+    fixed/handled network timeout (try except continue)
+    autosave now occurs after 15 minutes
+    autosave says the actual time instead of timestamp
+
 commit 7: 1/12/26
     fixed pause issue almost certainly
     fixed issue with timeout when internet cuts out i think?

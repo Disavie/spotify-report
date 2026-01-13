@@ -148,13 +148,15 @@ last_save_time = current_timestamp()
 time_paused = 0
 seconds_listened_when_track_begin = 0
 duration_s = 0
+save_please = 1
 
 while(1):
     #autosave
-    if current_timestamp() - last_save_time > 900: #15 minutes
+    if save_please or current_timestamp() - last_save_time > 900: #15 minutes -> i dont think this is actually 15 minutes
          last_save_time = current_timestamp()
+         save_please = 0
          closedata(_data)
-         print(f"--> Autosaving data at {last_save_time}")
+         print(f"--> Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
 
     #add day to "data/dates"
     date = get_midnight(START_TIME)

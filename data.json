@@ -1297,6 +1297,17 @@
             "genre": null,
             "times_skipped": 0,
             "times_played": 1
+        },
+        "415dK4glwDO7fXxYg3np8B": {
+            "name": "Pictures of Girls",
+            "seconds_listened": 11.681453943252563,
+            "first_listened": 1768347585.063445,
+            "last_listened": 1768347596.744899,
+            "artist": "Wallows",
+            "album": "Spring EP",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
         }
     },
     "dates": {
@@ -1304,7 +1315,7 @@
             "seconds_listened": 13440.72004032135
         },
         "2026-01-13 00:00:00": {
-            "seconds_listened": 22888.512644290924
+            "seconds_listened": 22900.194098234177
         }
     }
 }
