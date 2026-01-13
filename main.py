@@ -103,6 +103,7 @@ def update_data(data, song_id):
     data["tracks"][current_song_id]["seconds_listened"] = new_secs
     data["tracks"][current_song_id]["last_listened"] = current_timestamp()
 
+
     #day's data
     data["dates"][get_midnight(current_timestamp())]["seconds_listened"] += new_secs
     print(f'{data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
@@ -117,9 +118,21 @@ def new_track(_data, current_song_id):
                         "first_listened" : current_timestamp(),
                         "last_listened"  : current_timestamp(),
                         "artist" : song.get("artists")[0].get("name"),
-                        "album" : song.get("album", {}).get("name", "Unknown")
+                        "album" : song.get("album", {}).get("name", "Unknown"),
+                        "genre" : None,
+                        "times_skipped" : 0,
+                        "times_played"  : 1
                     }
 CURRENT_SONG_URL = "https://api.spotify.com/v1/me/player/currently-playing"
+
+def skipped(track,starting_seconds,total_length):
+     time_listened = track.get("seconds_listened") - starting_seconds
+     #print(time_listened)
+     #print(total_length)
+     if abs(time_listened - total_length) > 5:
+          return 1
+     else:
+          return 0
 
 headers = {
     "Authorization": f"Bearer {ACCESS_TOKEN}"
@@ -128,93 +141,112 @@ headers = {
 _data = opendata()
 current_song_id = -1
 paused = 0
+last_save_time = current_timestamp()
+time_paused = 0
+seconds_listened_when_track_begin = 0
 
 while(1):
-    try:
-        #add day to "data/dates"
-        date = get_midnight(START_TIME)
-        if date not in _data["dates"]:
-            _data["dates"][date] = {
-                "seconds_listened" : 0
-            }
+    #autosave
+    if current_timestamp() - last_save_time > 1800: #30 minutes
+         last_save_time = current_timestamp()
+         closedata(_data)
+         print(f"Autosaving data at {last_save_time}")
 
-        #get current song
-        r = requests.get(CURRENT_SONG_URL, headers=headers) #Tries the saved token in .env
-        if r.status_code in (400,401):
-            ACCESS_TOKEN = refresh_access_token(REFRESH_TOKEN)
-            headers = {
-                "Authorization": f"Bearer {ACCESS_TOKEN}"
-            }
-            r = requests.get(CURRENT_SONG_URL, headers=headers)
+    #add day to "data/dates"
+    date = get_midnight(START_TIME)
+    if date not in _data["dates"]:
+        _data["dates"][date] = {
+            "seconds_listened" : 0
+        }
+
+    #get current song
+    r = requests.get(CURRENT_SONG_URL, headers=headers) #Tries the saved token in .env
+    if r.status_code in (400,401):
+        ACCESS_TOKEN = refresh_access_token(REFRESH_TOKEN)
+        headers = {
+            "Authorization": f"Bearer {ACCESS_TOKEN}"
+        }
+        r = requests.get(CURRENT_SONG_URL, headers=headers, timeout = 10)
+    
+
+    #Check for song playing
+
+    if r.status_code == 200 and r.content:
+
+        """" debug
+        with open("recent_req.json", "w") as f:
+            json.dump(json.loads(r.content), f, indent=4)
+        """
+        response = json.loads(r.content)
+        song = json.loads(r.content).get("item")
+
+        if not response.get("is_playing"): #pausing
+            if not paused:
+                time_paused = current_timestamp()
+                print("Pausing")
+                paused = 1
+
+        if response.get("is_playing"): #unpausing
+            if paused:
+                tp = current_timestamp() - time_paused
+                _data["tracks"][current_song_id]["seconds_listened"] -= tp 
+                print(f'Unpausing (after {tp} seconds)')
+                paused = 0
+
+        #if song changed,update the data file THEN change current_song_id
+        if current_song_id != song.get("id"): 
+            #check for skip
+            print(f"Current Song : \"{song.get('name')}\"")
+
+            #if you skip to a new song while previous one was paused, subtract time paused
+            if paused and current_song_id != -1:
+                tp = current_timestamp() - time_paused
+                _data["tracks"][current_song_id]["seconds_listened"] -= tp
+            update_data(_data,current_song_id)
+            if current_song_id != -1 and skipped(_data["tracks"][current_song_id],seconds_listened_when_track_begin, song.get("duration_ms") / 1000):
+                 _data["tracks"][current_song_id]["times_skipped"] += 1
+                 #print("ooh i know that you skipped!!!!")
+
+
+
+
+            #update song to track if song swapped
+            current_song_id = song.get("id")
         
+            if current_song_id != -1:
 
-        #Check for song playing
 
-        if r.status_code == 200 and r.content:
+                if current_song_id != -1 and current_song_id not in _data["tracks"]:
+                    new_track(_data, current_song_id)
+                else:
+                     _data["tracks"][current_song_id]["times_played"] += 1
+                
+                seconds_listened_when_track_begin = _data["tracks"][current_song_id].get("seconds_listened")
 
-            """" debug
-            with open("recent_req.json", "w") as f:
-                json.dump(json.loads(r.content), f, indent=4)
-            """
-            response = json.loads(r.content)
-            song = json.loads(r.content).get("item")
-            #print(response.get("is_playing"))
-
-            if not response.get("is_playing"): #pausing
-                if not paused:
-                    update_data(_data, current_song_id)
-                    paused = 1
-
-            if response.get("is_playing"): #unpausing
-                if paused:
-                    _data["tracks"][current_song_id]["last_listened"] = current_timestamp()
-                    paused = 0
-
-            #if song changed, or paused update the data file THEN change current_song_id
-            #update when pasued then dont update again until unpause
-            if current_song_id != song.get("id"): 
-                print("SONG CHANGED!")
-                update_data(_data,current_song_id)
-
-                #update song to track if song swapped
-                current_song_id = song.get("id")
-            
-                if current_song_id != -1:
-
-                    if current_song_id != -1 and current_song_id not in _data["tracks"]:
-                        new_track(_data, current_song_id)
-
-                    #fix for pausing -> we just started listening so this is now the "last time we listened to it"
-                        _data["tracks"][current_song_id]["last_listened"] = current_timestamp()
+                #fix for pausing -> we just started listening so this is now the "last time we listened to it"
+                _data["tracks"][current_song_id]["last_listened"] = current_timestamp()
 
 
 
-                current_song_id = song.get("id")
+            current_song_id = song.get("id")
 
 
-        elif current_song_id != -1: #switched to not playing anything
-            update_data(_data, current_song_id)
-            current_song_id = -1
-            print("RESET SONG ID TO -1")
-        if current_song_id != -1:
-            print(f"Current track {song.get("name").upper()} is playing:{response.get("is_playing")}")
+    elif current_song_id != -1: #switched to not playing anything
+        update_data(_data, current_song_id)
+        current_song_id = -1
+        print("Nothing is playing now")
+
+    try:
         time.sleep(1)
 
     except KeyboardInterrupt:
     
-        if current_song_id != -1 and not paused:
+        if current_song_id != -1:
             update_data(_data, current_song_id)
+            if paused:
+                _data["tracks"][current_song_id]["seconds_listened"] -= current_timestamp() - time_paused        
         closedata(_data)
 
         exit()      
-
-    except Exception as e:
-
-        if current_song_id != -1 and not paused:
-            update_data(_data, current_song_id)
-        closedata(_data)
-        print(f"Exception Occured: {e}")
-
-        exit()
 
 

@@ -1,33 +1,11 @@
 {
-    "tracks": {
-        "4MdEYuoGhG2RTG3erOiu2H": {
-            "name": "Vibes and Stuff",
-            "seconds_listened": 383.14157700538635,
-            "first_listened": 1768249187.761899,
-            "last_listened": 1768249897.04489,
-            "artist": "A Tribe Called Quest",
-            "album": "The Low End Theory"
-        },
-        "6zrsmzrMoxNkXEQLubCWtA": {
-            "name": "Verses from the Abstract (feat. Vinia Mojica & Ron Carter)",
-            "seconds_listened": 15.19536805152893,
-            "first_listened": 1768249897.045887,
-            "last_listened": 1768249989.825542,
-            "artist": "A Tribe Called Quest",
-            "album": "The Low End Theory"
-        },
-        "0FMMLKHb74VB0H5u2fP6xo": {
-            "name": "Ease My Mind - Feat. Tre Hardson, Fat Lip & Omni",
-            "seconds_listened": 28.18190622329712,
-            "first_listened": 1768249989.826541,
-            "last_listened": 1768250080.884157,
-            "artist": "Jazz Liberatorz",
-            "album": "Clin D'oeil"
-        }
-    },
+    "tracks" :{
+
+    }
+    ,
     "dates": {
         "2026-01-12 00:00:00": {
-            "seconds_listened": 2486.6583309173584
+            "seconds_listened": 11526.206498861313
         }
     }
 }

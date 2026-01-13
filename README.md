@@ -4,6 +4,14 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit 7: 1/12/26
+    fixed pause issue almost certainly
+    fixed issue with timeout when internet cuts out i think?
+    counts skips
+    genre support in future
+-> do daily mini-wrapped's tomorrow
+-> need command line access to request specific info, put main loop into a new thread    
+
 commit 6: 1/12/26
     fixed pause issue i think -> next time count skips
 
