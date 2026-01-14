@@ -232,7 +232,7 @@ while(1):
                 paused = 0
 
         #if song changed,update the data file THEN change current_song_id
-        if current_song_id != song.get("id"): 
+        if song and current_song_id != song.get("id"): 
             #check for skip
 
             #if you skip to a new song while previous one was paused, subtract time paused
