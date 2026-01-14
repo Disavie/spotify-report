@@ -1363,6 +1363,28 @@
             "genre": null,
             "times_skipped": 0,
             "times_played": 15
+        },
+        "7mEPuj0XW6eK14Unu6IUc1": {
+            "name": "Eclipse (feat. Substantial)",
+            "seconds_listened": 16.543313026428223,
+            "first_listened": 1768394936.367836,
+            "last_listened": 1768394952.911149,
+            "artist": "Nujabes",
+            "album": "Modal Soul",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 1
+        },
+        "5P4Dow1Jc2NhkknIuPi5Nd": {
+            "name": "Rain (feat. Vince Staples)",
+            "seconds_listened": 14.596771955490112,
+            "first_listened": 1768394952.911149,
+            "last_listened": 1768394967.507921,
+            "artist": "Mac Miller",
+            "album": "Faces",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
         }
     },
     "dates": {
@@ -1371,6 +1393,9 @@
         },
         "2026-01-13 00:00:00": {
             "seconds_listened": 25663.100254535675
+        },
+        "2026-01-14 00:00:00": {
+            "seconds_listened": 31.140084981918335
         }
     }
 }

@@ -5,6 +5,7 @@ import os
 import json
 import time
 import datetime
+import myemail
 
 # Load environment variables
 load_dotenv()
@@ -148,6 +149,7 @@ time_paused = 0
 seconds_listened_when_track_begin = 0
 duration_s = 0
 save_please = 1
+myemail.send_email(myemail.MY_EMAIL, "Program started!")
 
 while(1):
     #autosave
@@ -155,6 +157,8 @@ while(1):
          last_save_time = current_timestamp()
          save_please = 0
          closedata(_data)
+         myemail.send_email(myemail.MY_EMAIL,f"Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
+
          print(f"--> Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
 
     #add day to "data/dates"
@@ -174,6 +178,7 @@ while(1):
             }
             r = requests.get(CURRENT_SONG_URL, headers=headers, timeout = 10)
     except Exception as e:
+        myemail.send_email(myemail.MY_EMAIL,f"Caught error with url request: \n {e}")
         print(f"Caught error with url request : {e}")
         time.sleep(1)
         continue
