@@ -4,6 +4,9 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit 8.5 1/13/26:
+    daily second tracker big ass bug fixed yay!
+
 
 *next commit add genre and email notifications
 commit 8: 1/13/26

@@ -97,10 +97,9 @@ def update_data(data, song_id):
         return 1
     
     #track data
-    curr_min = data["tracks"][current_song_id].get("seconds_listened")
     last_lis = data["tracks"][current_song_id].get("last_listened")
-    new_secs = curr_min + (current_timestamp() - last_lis)
-    data["tracks"][current_song_id]["seconds_listened"] = new_secs
+    new_secs = (current_timestamp() - last_lis)
+    data["tracks"][current_song_id]["seconds_listened"] += new_secs
     data["tracks"][current_song_id]["last_listened"] = current_timestamp()
 
 
@@ -209,7 +208,8 @@ while(1):
             if paused:
                 tp = current_timestamp() - time_paused
                 if current_song_id != -1:
-                    _data["tracks"][current_song_id]["seconds_listened"] -= tp 
+                    tp = current_timestamp() - time_paused
+                    _data["tracks"][current_song_id]["seconds_listened"] -= tp
                     _data["dates"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
 
                 print(f'Unpausing (after {tp} seconds)')
@@ -263,11 +263,18 @@ while(1):
         time.sleep(1)
 
     except KeyboardInterrupt:
-    
+        print(f'\t START{_data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
+
         if current_song_id != -1:
             update_data(_data, current_song_id)
+            print("jere2")
             if paused:
-                _data["tracks"][current_song_id]["seconds_listened"] -= current_timestamp() - time_paused        
+                print('jere')
+                tp = current_timestamp() - time_paused
+                _data["tracks"][current_song_id]["seconds_listened"] -= tp
+                _data["dates"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
+
+        print(f'\t END{_data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
         closedata(_data)
 
         exit()      
