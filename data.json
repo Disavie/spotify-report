@@ -1300,11 +1300,66 @@
         },
         "415dK4glwDO7fXxYg3np8B": {
             "name": "Pictures of Girls",
-            "seconds_listened": 11.681453943252563,
+            "seconds_listened": 72.30097699165344,
             "first_listened": 1768347585.063445,
-            "last_listened": 1768347596.744899,
+            "last_listened": 1768347723.425668,
             "artist": "Wallows",
             "album": "Spring EP",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2
+        },
+        "3mNbXNW3cu7L3XVrEHBV6B": {
+            "name": "Stronger",
+            "seconds_listened": 202.6703519821167,
+            "first_listened": 1768347723.425668,
+            "last_listened": 1768347926.09602,
+            "artist": "SIAMES",
+            "album": "BOUNCE INTO THE MUSIC",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "6lCn2IK3UJHf4mCccFwVMZ": {
+            "name": "Th\u00e9 \u00e0 la menthe (Instrumental)",
+            "seconds_listened": 248.23469495773315,
+            "first_listened": 1768347926.09602,
+            "last_listened": 1768348174.330715,
+            "artist": "La Caution",
+            "album": "Peines de Maures / Arc-en-ciel pour daltoniens (Instrumental Version)",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "14tud1FLjpHMYHpD2c7NbO": {
+            "name": "i'll die anyway.",
+            "seconds_listened": 191.9504120349884,
+            "first_listened": 1768348174.330715,
+            "last_listened": 1768348366.281127,
+            "artist": "girl in red",
+            "album": "i'll die anyway.",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "6Grbm8wC1dfrUxip7x3sC7": {
+            "name": "Gaslight feat. Travis Barker",
+            "seconds_listened": 110.42085909843445,
+            "first_listened": 1768348366.281127,
+            "last_listened": 1768348476.701986,
+            "artist": "WILLOW",
+            "album": "lately I feel EVERYTHING",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "63Pi2NAx5yCgeLhCTOrEou": {
+            "name": "Headlock",
+            "seconds_listened": 172.03249382972717,
+            "first_listened": 1768348476.701986,
+            "last_listened": 1768348648.73448,
+            "artist": "Imogen Heap",
+            "album": "Speak for Yourself (Deluxe Version)",
             "genre": null,
             "times_skipped": 0,
             "times_played": 1
@@ -1315,7 +1370,7 @@
             "seconds_listened": 13440.72004032135
         },
         "2026-01-13 00:00:00": {
-            "seconds_listened": 22900.194098234177
+            "seconds_listened": 23897.80388712883
         }
     }
 }

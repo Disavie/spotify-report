@@ -4,6 +4,8 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+
+*next commit add genre and email notifications
 commit 8: 1/13/26
     fixed/handled network timeout (try except continue)
     autosave now occurs after 15 minutes

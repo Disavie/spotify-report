@@ -210,24 +210,28 @@ while(1):
                 tp = current_timestamp() - time_paused
                 if current_song_id != -1:
                     _data["tracks"][current_song_id]["seconds_listened"] -= tp 
+                    _data["dates"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
+
                 print(f'Unpausing (after {tp} seconds)')
                 paused = 0
 
         #if song changed,update the data file THEN change current_song_id
         if current_song_id != song.get("id"): 
             #check for skip
-            print(f"Current Song : \"{song.get('name')}\"")
 
             #if you skip to a new song while previous one was paused, subtract time paused
             if paused and current_song_id != -1:
                 tp = current_timestamp() - time_paused
                 _data["tracks"][current_song_id]["seconds_listened"] -= tp
+                _data["dates"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
+
             update_data(_data,current_song_id)
             if current_song_id != -1 and skipped(_data["tracks"][current_song_id],seconds_listened_when_track_begin, duration_s):
                  _data["tracks"][current_song_id]["times_skipped"] += 1
 
 
 
+            print(f"Current Song : \"{song.get('name')}\"")
 
             #update song to track if song swapped
             current_song_id = song.get("id")
