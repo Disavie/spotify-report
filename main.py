@@ -149,7 +149,7 @@ time_paused = 0
 seconds_listened_when_track_begin = 0
 duration_s = 0
 save_please = 1
-myemail.send_email(myemail.MY_EMAIL, "Program started!")
+current_day = -1
 
 while(1):
     #autosave
@@ -157,9 +157,17 @@ while(1):
          last_save_time = current_timestamp()
          save_please = 0
          closedata(_data)
-         myemail.send_email(myemail.MY_EMAIL,f"Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
+         #myemail.send_email(myemail.MY_EMAIL,"Autosave",f"Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
 
          print(f"--> Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
+
+    #daily notifications , will send an email summary of previous day at midnight
+    if get_midnight(current_timestamp()) != current_day:
+         if current_day != -1:
+            myemail.send_email(myemail.MY_EMAIL,
+                               "Daily Summary",
+                               f"You spent {_data["dates"][current_day]["seconds_listened"]/60} minutes listening to Spotify on {current_day}")
+         current_day = get_midnight(current_timestamp())
 
     #add day to "data/dates"
     date = get_midnight(START_TIME)
@@ -178,7 +186,10 @@ while(1):
             }
             r = requests.get(CURRENT_SONG_URL, headers=headers, timeout = 10)
     except Exception as e:
-        myemail.send_email(myemail.MY_EMAIL,f"Caught error with url request: \n {e}")
+        try:
+            myemail.send_email(myemail.MY_EMAIL,"Encountered Error", f"Caught error with url request: \n {e}")
+        except Exception as e:
+            print(f"Error while trying to send email report: {e}")
         print(f"Caught error with url request : {e}")
         time.sleep(1)
         continue

@@ -4,6 +4,17 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit #9 1/14/26:
+    added email error notifcations,
+->add daily email summary
+        -> top song
+        -> top artist
+        -> top genre
+        -> listening time
+->genre tracking
+
+
+
 commit 8.5 1/13/26:
     daily second tracker big ass bug fixed yay!
 
