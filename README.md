@@ -4,6 +4,10 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit #11 : 1/15/26
+    visualizer.py to do some basic parsing of data.json
+    tracks length of tracks now
+
 commit #10: 1/15/26
     fixed midnight crash errror with START_TIME -> current_day
 

@@ -1,191 +1,26 @@
 {
     "tracks": {
-        "6R7FvVrMVK971TVxOU2Ab9": {
-            "name": "I Can Hear Music - Demo",
-            "seconds_listened": 3.6781411170959473,
-            "first_listened": 1768274480.525359,
-            "last_listened": 1768274484.2035,
-            "artist": "The Beach Boys",
-            "album": "I Can Hear Music: The 20/20 Sessions",
+        "63Pi2NAx5yCgeLhCTOrEou": {
+            "name": "Headlock",
+            "seconds_listened": 253.5700945854187,
+            "first_listened": 1768348476.701986,
+            "last_listened": 1768504856.728767,
+            "artist": "Imogen Heap",
+            "album": "Speak for Yourself (Deluxe Version)",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 16
+        },
+        "1jDJFeK9x3OZboIAHsY9k2": {
+            "name": "I'm Still Standing",
+            "seconds_listened": 348.5674648284912,
+            "first_listened": 1768330644.693325,
+            "last_listened": 1768495715.781427,
+            "artist": "Elton John",
+            "album": "Too Low For Zero",
             "genre": null,
             "times_skipped": 1,
-            "times_played": 1
-        },
-        "36QO6pUIPeTCUmq2D2xihZ": {
-            "name": "Hand Without A Body",
-            "seconds_listened": 59.793132066726685,
-            "first_listened": 1768274484.2035,
-            "last_listened": 1768274543.996632,
-            "artist": "Half Japanese",
-            "album": "Half Japanese Volume 3: 1990-1995",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "6wFKwkqFmB3SJcJ7dCodMp": {
-            "name": "Turn It Up",
-            "seconds_listened": 60.1432671546936,
-            "first_listened": 1768274543.99763,
-            "last_listened": 1768274604.140897,
-            "artist": "Galaxy Express",
-            "album": "Electric Jungle",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "1z021pfmI681uLVplsoftZ": {
-            "name": "Lonely Boy with a Toy Ukulele",
-            "seconds_listened": 60.60769295692444,
-            "first_listened": 1768274604.140897,
-            "last_listened": 1768274664.74859,
-            "artist": "Tomppabeats",
-            "album": "Discography 2016",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "58ECQRuxoQnaL3DmV6xqN0": {
-            "name": "Logic",
-            "seconds_listened": 60.400099992752075,
-            "first_listened": 1768274664.74959,
-            "last_listened": 1768274725.14969,
-            "artist": "D\u00f8dheimsgard",
-            "album": "666 International",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "4wm3QZeaGy8Frl55N3odG2": {
-            "name": "Thorn King",
-            "seconds_listened": 60.36972212791443,
-            "first_listened": 1768274725.14969,
-            "last_listened": 1768274785.519412,
-            "artist": "Profanatica",
-            "album": "Altar of the Virgin Whore",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "1SOcy2ih1UUipdmIfcmrh4": {
-            "name": "Intro",
-            "seconds_listened": 60.11421084403992,
-            "first_listened": 1768274785.519412,
-            "last_listened": 1768274845.633623,
-            "artist": "Immortal",
-            "album": "Blizzard Beasts",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "0CPYUk0GSH6PpvLGQjvczr": {
-            "name": "Intro",
-            "seconds_listened": 61.10105919837952,
-            "first_listened": 1768274845.633623,
-            "last_listened": 1768274906.734682,
-            "artist": "D\u00f8dheimsgard",
-            "album": "Kronet Til Konge",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "3iW3y326xuRpNVXzOMBZy5": {
-            "name": "Not Just Money",
-            "seconds_listened": 23.494210958480835,
-            "first_listened": 1768274906.734682,
-            "last_listened": 1768274930.228893,
-            "artist": "Frank Ocean",
-            "album": "channel ORANGE",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 1
-        },
-        "1yYlpGuBiRRf33e1gY61bN": {
-            "name": "Night Shift",
-            "seconds_listened": 374.7753839492798,
-            "first_listened": 1768274930.228893,
-            "last_listened": 1768275359.893005,
-            "artist": "Lucy Dacus",
-            "album": "Historian",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 2
-        },
-        "4ETQzZdnRJwaoFIPQy3GJv": {
-            "name": "Boyish",
-            "seconds_listened": 222.36119532585144,
-            "first_listened": 1768275359.893005,
-            "last_listened": 1768307897.357764,
-            "artist": "Japanese Breakfast",
-            "album": "Soft Sounds from Another Planet",
-            "genre": null,
-            "times_skipped": 2,
-            "times_played": 3
-        },
-        "4SrRrB27n7fiRkQcPoKfpk": {
-            "name": "Motion Picture Soundtrack",
-            "seconds_listened": 236.23962998390198,
-            "first_listened": 1768275573.237916,
-            "last_listened": 1768307928.799508,
-            "artist": "Radiohead",
-            "album": "Kid A",
-            "genre": null,
-            "times_skipped": 2,
-            "times_played": 2
-        },
-        "4rJHH484bHZDts51o5i2CB": {
-            "name": "I'd Rather Pretend",
-            "seconds_listened": 185.0753710269928,
-            "first_listened": 1768275778.042799,
-            "last_listened": 1768275963.11817,
-            "artist": "Bryant Barnes",
-            "album": "VANITY",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 1
-        },
-        "2bjxKyGCrBv8JFXvo6Qdrk": {
-            "name": "Forget About Life",
-            "seconds_listened": 164.1923840045929,
-            "first_listened": 1768275963.11817,
-            "last_listened": 1768276127.310554,
-            "artist": "Alvvays",
-            "album": "Antisocialites",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 1
-        },
-        "6TcxxINfeaBEQ35sHMldTD": {
-            "name": "Dreams Tonite",
-            "seconds_listened": 0,
-            "first_listened": 1768276127.310554,
-            "last_listened": 1768276127.310554,
-            "artist": "Alvvays",
-            "album": "Antisocialites",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "3ZvizGdIjQuTdt8sChAPWL": {
-            "name": "keep it in the dark",
-            "seconds_listened": 13.758610963821411,
-            "first_listened": 1768307538.637996,
-            "last_listened": 1768307552.396607,
-            "artist": "Capital Soiree",
-            "album": "keep it in the dark",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "5rMpIDvONQ5jgjFfgzl0An": {
-            "name": "What Do You Want?",
-            "seconds_listened": 122.23753905296326,
-            "first_listened": 1768307632.330395,
-            "last_listened": 1768307754.567934,
-            "artist": "Yndling",
-            "album": "Mood Booster",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
+            "times_played": 6
         },
         "70eDxAyAraNTiD6lx2ZEnH": {
             "name": "Ex's & Oh's",
@@ -209,61 +44,6 @@
             "times_skipped": 4,
             "times_played": 5
         },
-        "4gbVRS8gloEluzf0GzDOFc": {
-            "name": "Maps",
-            "seconds_listened": 219.51592087745667,
-            "first_listened": 1768308511.004715,
-            "last_listened": 1768496385.525847,
-            "artist": "Maroon 5",
-            "album": "V",
-            "genre": null,
-            "times_skipped": 2,
-            "times_played": 4
-        },
-        "6pF9YD660rt6ofItCCILBi": {
-            "name": "Thank You For The Love",
-            "seconds_listened": 318.1320741176605,
-            "first_listened": 1768308628.159104,
-            "last_listened": 1768485814.266066,
-            "artist": "Fatal",
-            "album": "Thank You For The Love",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
-        },
-        "1DSnG32XcPhmY0rg60UKjP": {
-            "name": "Me and My Synths",
-            "seconds_listened": 525.0043039321899,
-            "first_listened": 1768308791.560998,
-            "last_listened": 1768498524.850405,
-            "artist": "Scubadiver",
-            "album": "Me and My Synths",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
-        },
-        "1ZreCbCSHpRcvqYpXlxnYC": {
-            "name": "The Wolf",
-            "seconds_listened": 374.30985403060913,
-            "first_listened": 1768309053.818445,
-            "last_listened": 1768488268.931174,
-            "artist": "SIAMES",
-            "album": "BOUNCE INTO THE MUSIC",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
-        },
-        "0z3YYobsavHguLTgqg5GC1": {
-            "name": "Picture in My Mind",
-            "seconds_listened": 192.4573359489441,
-            "first_listened": 1768309240.805004,
-            "last_listened": 1768486906.89955,
-            "artist": "PinkPantheress",
-            "album": "Picture in my mind",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
-        },
         "15SlcE8nR6jy5apDPBcnJE": {
             "name": "Mr. Loverman",
             "seconds_listened": 349.8884220123291,
@@ -286,6 +66,28 @@
             "times_skipped": 2,
             "times_played": 5
         },
+        "1dJ1TP6gX47dJaV0NDAyCC": {
+            "name": "testimony",
+            "seconds_listened": 144.08311009407043,
+            "first_listened": 1768418289.851802,
+            "last_listened": 1768418492.800376,
+            "artist": "MAVI",
+            "album": "shadowbox",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 4
+        },
+        "4gbVRS8gloEluzf0GzDOFc": {
+            "name": "Maps",
+            "seconds_listened": 219.51592087745667,
+            "first_listened": 1768308511.004715,
+            "last_listened": 1768496385.525847,
+            "artist": "Maroon 5",
+            "album": "V",
+            "genre": null,
+            "times_skipped": 2,
+            "times_played": 4
+        },
         "3r44Otr6SVUja3SYsCuhVY": {
             "name": "Shootout (Sped Up)",
             "seconds_listened": 459.9457628726959,
@@ -297,35 +99,233 @@
             "times_skipped": 2,
             "times_played": 4
         },
-        "0VjIjW4GlUZAMYd2vXMi3b": {
-            "name": "Blinding Lights",
-            "seconds_listened": 402.8797538280487,
-            "first_listened": 1768311334.551006,
-            "last_listened": 1768501292.060492,
-            "artist": "The Weeknd",
-            "album": "After Hours",
+        "4ETQzZdnRJwaoFIPQy3GJv": {
+            "name": "Boyish",
+            "seconds_listened": 222.36119532585144,
+            "first_listened": 1768275359.893005,
+            "last_listened": 1768307897.357764,
+            "artist": "Japanese Breakfast",
+            "album": "Soft Sounds from Another Planet",
+            "genre": null,
+            "times_skipped": 2,
+            "times_played": 3
+        },
+        "40iocOzytrqaRn5RbGPDNp": {
+            "name": "Cherry Flavoured",
+            "seconds_listened": 985.6125600337982,
+            "first_listened": 1768338478.706084,
+            "last_listened": 1768504788.334412,
+            "artist": "The Neighbourhood",
+            "album": "Chip Chrome & The Mono-Tones",
+            "genre": null,
+            "times_skipped": 2,
+            "times_played": 3
+        },
+        "5ruzrDWcT0vuJIOMW7gMnW": {
+            "name": "The Adults Are Talking",
+            "seconds_listened": 613.4758207798004,
+            "first_listened": 1768329809.302187,
+            "last_listened": 1768485420.454617,
+            "artist": "The Strokes",
+            "album": "The New Abnormal",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 3
+        },
+        "4pH8cIlMI9NrTWcDiQbuRe": {
+            "name": "Miss You - Sped Up Version",
+            "seconds_listened": 346.6505289077759,
+            "first_listened": 1768312611.823492,
+            "last_listened": 1768493842.300771,
+            "artist": "Oliver Tree",
+            "album": "Miss You (Sped Up Version)",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 3
+        },
+        "4TZ2Ub8bZh4LTs06eANDXa": {
+            "name": "Lights - Sped Up Version",
+            "seconds_listened": 367.0651831626892,
+            "first_listened": 1768317471.549942,
+            "last_listened": 1768496955.667807,
+            "artist": "Ellie Goulding",
+            "album": "Lights (Sped Up Version)",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 3
+        },
+        "1R6nmC4HUGOGSKU02Wqa0v": {
+            "name": "The Coolest",
+            "seconds_listened": 159.62423992156982,
+            "first_listened": 1768416785.701292,
+            "last_listened": 1768416974.664242,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's The Cool",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 3
+        },
+        "5sb40Fb2TgFO1xxuHPhsDj": {
+            "name": "The Darkest Part (feat. Raekwon and Kid Sister)",
+            "seconds_listened": 209.44157218933105,
+            "first_listened": 1768427426.369579,
+            "last_listened": 1768427651.752871,
+            "artist": "Danger Mouse",
+            "album": "Cheat Codes",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 3
+        },
+        "2YkIDPL5lGhRhomCq4S2RO": {
+            "name": "My Way - 2008 Remastered",
+            "seconds_listened": 552.9252109527588,
+            "first_listened": 1768329533.345951,
+            "last_listened": 1768500523.401266,
+            "artist": "Frank Sinatra",
+            "album": "Nothing But The Best (2008 Remastered)",
             "genre": null,
             "times_skipped": 0,
             "times_played": 2
         },
-        "3u1FiuSpfsgVnekEMXgMwJ": {
-            "name": "Tag, You're It",
-            "seconds_listened": 377.47826313972473,
-            "first_listened": 1768311536.274288,
-            "last_listened": 1768498993.970479,
-            "artist": "Melanie Martinez",
-            "album": "Cry Baby (Deluxe Edition)",
+        "62yD1JVWHNG854ZauR5aBR": {
+            "name": "can't get you out of my head",
+            "seconds_listened": 319.94735884666443,
+            "first_listened": 1768330118.995823,
+            "last_listened": 1768488428.776728,
+            "artist": "JYLPO",
+            "album": "can't get you out of my head",
             "genre": null,
             "times_skipped": 0,
             "times_played": 2
         },
-        "4blPH3Uy89WnOnYlIv7Ev4": {
-            "name": "R\u00e4t",
-            "seconds_listened": 389.7200677394867,
-            "first_listened": 1768311724.763667,
-            "last_listened": 1768494246.68146,
-            "artist": "Penelope Scott",
-            "album": "Public Void",
+        "7g1251d41qVR8kq6yz9XXa": {
+            "name": "pouring outside",
+            "seconds_listened": 313.47417521476746,
+            "first_listened": 1768330279.098621,
+            "last_listened": 1768487707.301966,
+            "artist": "dyl dion",
+            "album": "pouring outside",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "5odlY52u43F5BjByhxg7wg": {
+            "name": "golden hour",
+            "seconds_listened": 418.40981006622314,
+            "first_listened": 1768330435.819019,
+            "last_listened": 1768494051.837275,
+            "artist": "JVKE",
+            "album": "this is what ____ feels like (Vol. 1-4)",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "6F5mZpEEjhsAW8UEqbIpz1": {
+            "name": "Tired",
+            "seconds_listened": 400.3048481941223,
+            "first_listened": 1768330829.722719,
+            "last_listened": 1768486392.0585,
+            "artist": "beabadoobee",
+            "album": "Patched Up",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "5JKnYZOhSP7rOK0jPYcCjV": {
+            "name": "t r a n s p a r e n t s o u l feat. Travis Barker",
+            "seconds_listened": 337.1914846897125,
+            "first_listened": 1768331029.790584,
+            "last_listened": 1768487441.038787,
+            "artist": "WILLOW",
+            "album": "lately I feel EVERYTHING",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "5roJHNawFJN8OObQtPr4vm": {
+            "name": "Lobster",
+            "seconds_listened": 498.0742380619049,
+            "first_listened": 1768331198.359043,
+            "last_listened": 1768489035.54651,
+            "artist": "Boy Called Cute",
+            "album": "Should Have & Could've Beens",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "5yVRwEPSCpcuOUgkz2T0Lu": {
+            "name": "\"Radio\"",
+            "seconds_listened": 191.39330291748047,
+            "first_listened": 1768427997.81291,
+            "last_listened": 1768428630.486765,
+            "artist": "Vince Staples",
+            "album": "Dark Times",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2
+        },
+        "06nhoOF0GViBt0LUWyCTNA": {
+            "name": "Run, Run, Run Pt. II",
+            "seconds_listened": 95.90240693092346,
+            "first_listened": 1768395531.914196,
+            "last_listened": 1768395635.772385,
+            "artist": "McKinley Dixon",
+            "album": "Magic, Alive!",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2
+        },
+        "0QpX5ZqHAhtRVQKLJz0RVG": {
+            "name": "HOLY ____",
+            "seconds_listened": 455.72745513916016,
+            "first_listened": 1768414151.537111,
+            "last_listened": 1768447959.472769,
+            "artist": "Mach-Hommy",
+            "album": "#RICHAXXHAITIAN",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "11aFVmFy8903RwDx4ohQiq": {
+            "name": "Be (Intro)",
+            "seconds_listened": 289.6661567687988,
+            "first_listened": 1768411336.503359,
+            "last_listened": 1768412377.92627,
+            "artist": "Common",
+            "album": "Be",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "3BUc2A0MJ53FHwiy3eohBt": {
+            "name": "Nobody New",
+            "seconds_listened": 215.22337317466736,
+            "first_listened": 1768332580.893776,
+            "last_listened": 1768333021.690197,
+            "artist": "The Mar\u00edas",
+            "album": "Nobody New",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2
+        },
+        "46WKVeSSbpvXS08JJpZusu": {
+            "name": "All The Best",
+            "seconds_listened": 383.661691904068,
+            "first_listened": 1768333021.69119,
+            "last_listened": 1768503722.422711,
+            "artist": "SIAMES",
+            "album": "All The Best",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "1cSSLL7OmIWvVocmIZ4jwm": {
+            "name": "THE KILLER SHEWOLF.",
+            "seconds_listened": 315.8877639770508,
+            "first_listened": 1768411481.437805,
+            "last_listened": 1768413401.565445,
+            "artist": "jev.",
+            "album": "when angels cry",
             "genre": null,
             "times_skipped": 0,
             "times_played": 2
@@ -363,16 +363,16 @@
             "times_skipped": 0,
             "times_played": 2
         },
-        "4pH8cIlMI9NrTWcDiQbuRe": {
-            "name": "Miss You - Sped Up Version",
-            "seconds_listened": 346.6505289077759,
-            "first_listened": 1768312611.823492,
-            "last_listened": 1768493842.300771,
-            "artist": "Oliver Tree",
-            "album": "Miss You (Sped Up Version)",
+        "1xLs8Mu1QEVbGCpyHQ2r2U": {
+            "name": "Why",
+            "seconds_listened": 280.4385781288147,
+            "first_listened": 1768328529.077943,
+            "last_listened": 1768488568.915081,
+            "artist": "Dominic Fike",
+            "album": "What Could Possibly Go Wrong",
             "genre": null,
-            "times_skipped": 1,
-            "times_played": 3
+            "times_skipped": 0,
+            "times_played": 2
         },
         "6VHWUCvIPh2qokLBWjUqhr": {
             "name": "Can U Meet Me There",
@@ -418,16 +418,16 @@
             "times_skipped": 0,
             "times_played": 2
         },
-        "4TZ2Ub8bZh4LTs06eANDXa": {
-            "name": "Lights - Sped Up Version",
-            "seconds_listened": 367.0651831626892,
-            "first_listened": 1768317471.549942,
-            "last_listened": 1768496955.667807,
-            "artist": "Ellie Goulding",
-            "album": "Lights (Sped Up Version)",
+        "6eZFiHEV6nKcEJj3EHkeWU": {
+            "name": "Fantaisie Impromptu, Op. 66",
+            "seconds_listened": 679.0217192173004,
+            "first_listened": 1768328189.249683,
+            "last_listened": 1768489374.741987,
+            "artist": "Fr\u00e9d\u00e9ric Chopin",
+            "album": "Fantaisie Impromptu, Op. 66",
             "genre": null,
-            "times_skipped": 1,
-            "times_played": 3
+            "times_skipped": 0,
+            "times_played": 2
         },
         "22nyEAEM29tcBRhukR089b": {
             "name": "Icon",
@@ -440,24 +440,24 @@
             "times_skipped": 1,
             "times_played": 2
         },
-        "6eZFiHEV6nKcEJj3EHkeWU": {
-            "name": "Fantaisie Impromptu, Op. 66",
-            "seconds_listened": 679.0217192173004,
-            "first_listened": 1768328189.249683,
-            "last_listened": 1768489374.741987,
-            "artist": "Fr\u00e9d\u00e9ric Chopin",
-            "album": "Fantaisie Impromptu, Op. 66",
+        "415dK4glwDO7fXxYg3np8B": {
+            "name": "Pictures of Girls",
+            "seconds_listened": 72.30097699165344,
+            "first_listened": 1768347585.063445,
+            "last_listened": 1768347723.425668,
+            "artist": "Wallows",
+            "album": "Spring EP",
             "genre": null,
-            "times_skipped": 0,
+            "times_skipped": 1,
             "times_played": 2
         },
-        "1xLs8Mu1QEVbGCpyHQ2r2U": {
-            "name": "Why",
-            "seconds_listened": 280.4385781288147,
-            "first_listened": 1768328529.077943,
-            "last_listened": 1768488568.915081,
-            "artist": "Dominic Fike",
-            "album": "What Could Possibly Go Wrong",
+        "4Gqh7XRuYd4TtFFqooSyrv": {
+            "name": "Real People",
+            "seconds_listened": 162.9532651901245,
+            "first_listened": 1768417113.561271,
+            "last_listened": 1768417282.247446,
+            "artist": "Common",
+            "album": "Be",
             "genre": null,
             "times_skipped": 0,
             "times_played": 2
@@ -473,6 +473,39 @@
             "times_skipped": 0,
             "times_played": 2
         },
+        "4lovbNtAeIxtXWy9bwEsQk": {
+            "name": "Steps Beach",
+            "seconds_listened": 214.3165910243988,
+            "first_listened": 1768418492.80138,
+            "last_listened": 1768418722.877934,
+            "artist": "Childish Gambino",
+            "album": "Bando Stone and The New World",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2
+        },
+        "2T28tl7T9TR4qQqFGTHL1c": {
+            "name": "COPY COLD",
+            "seconds_listened": 241.3775646686554,
+            "first_listened": 1768420870.343929,
+            "last_listened": 1768425717.640791,
+            "artist": "Mach-Hommy",
+            "album": "#RICHAXXHAITIAN",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2
+        },
+        "4No5AkSyE2kw2yBx1rAA49": {
+            "name": "Samurai (feat. Troy Tyler)",
+            "seconds_listened": 273.26986479759216,
+            "first_listened": 1768426801.19524,
+            "last_listened": 1768427075.686895,
+            "artist": "Lupe Fiasco",
+            "album": "Samurai + Palaces",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2
+        },
         "2eDvflMCe9ssOkUJrxqikB": {
             "name": "Th\u00e9 \u00e0 la menthe",
             "seconds_listened": 450.4553060531616,
@@ -484,6 +517,50 @@
             "times_skipped": 0,
             "times_played": 2
         },
+        "5MxNLUsfh7uzROypsoO5qe": {
+            "name": "Dream On",
+            "seconds_listened": 261.9766113758087,
+            "first_listened": 1768484815.463167,
+            "last_listened": 1768485110.998042,
+            "artist": "Aerosmith",
+            "album": "Aerosmith",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "4CBGocqDmAjJLcA9sA9EXF": {
+            "name": "Cary Me Back",
+            "seconds_listened": 207.40012001991272,
+            "first_listened": 1768504004.279563,
+            "last_listened": 1768504237.744817,
+            "artist": "Mild High Club",
+            "album": "Skiptracing",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2
+        },
+        "1yYlpGuBiRRf33e1gY61bN": {
+            "name": "Night Shift",
+            "seconds_listened": 374.7753839492798,
+            "first_listened": 1768274930.228893,
+            "last_listened": 1768275359.893005,
+            "artist": "Lucy Dacus",
+            "album": "Historian",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2
+        },
+        "4SrRrB27n7fiRkQcPoKfpk": {
+            "name": "Motion Picture Soundtrack",
+            "seconds_listened": 236.23962998390198,
+            "first_listened": 1768275573.237916,
+            "last_listened": 1768307928.799508,
+            "artist": "Radiohead",
+            "album": "Kid A",
+            "genre": null,
+            "times_skipped": 2,
+            "times_played": 2
+        },
         "1Qrg8KqiBpW07V7PNxwwwL": {
             "name": "Kill Bill",
             "seconds_listened": 308.08260774612427,
@@ -491,6 +568,50 @@
             "last_listened": 1768500034.19273,
             "artist": "SZA",
             "album": "SOS",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "6pF9YD660rt6ofItCCILBi": {
+            "name": "Thank You For The Love",
+            "seconds_listened": 318.1320741176605,
+            "first_listened": 1768308628.159104,
+            "last_listened": 1768485814.266066,
+            "artist": "Fatal",
+            "album": "Thank You For The Love",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "1DSnG32XcPhmY0rg60UKjP": {
+            "name": "Me and My Synths",
+            "seconds_listened": 525.0043039321899,
+            "first_listened": 1768308791.560998,
+            "last_listened": 1768498524.850405,
+            "artist": "Scubadiver",
+            "album": "Me and My Synths",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "1ZreCbCSHpRcvqYpXlxnYC": {
+            "name": "The Wolf",
+            "seconds_listened": 374.30985403060913,
+            "first_listened": 1768309053.818445,
+            "last_listened": 1768488268.931174,
+            "artist": "SIAMES",
+            "album": "BOUNCE INTO THE MUSIC",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2
+        },
+        "0z3YYobsavHguLTgqg5GC1": {
+            "name": "Picture in My Mind",
+            "seconds_listened": 192.4573359489441,
+            "first_listened": 1768309240.805004,
+            "last_listened": 1768486906.89955,
+            "artist": "PinkPantheress",
+            "album": "Picture in my mind",
             "genre": null,
             "times_skipped": 0,
             "times_played": 2
@@ -517,104 +638,93 @@
             "times_skipped": 0,
             "times_played": 2
         },
-        "2YkIDPL5lGhRhomCq4S2RO": {
-            "name": "My Way - 2008 Remastered",
-            "seconds_listened": 552.9252109527588,
-            "first_listened": 1768329533.345951,
-            "last_listened": 1768500523.401266,
-            "artist": "Frank Sinatra",
-            "album": "Nothing But The Best (2008 Remastered)",
+        "4blPH3Uy89WnOnYlIv7Ev4": {
+            "name": "R\u00e4t",
+            "seconds_listened": 389.7200677394867,
+            "first_listened": 1768311724.763667,
+            "last_listened": 1768494246.68146,
+            "artist": "Penelope Scott",
+            "album": "Public Void",
             "genre": null,
             "times_skipped": 0,
             "times_played": 2
         },
-        "5ruzrDWcT0vuJIOMW7gMnW": {
-            "name": "The Adults Are Talking",
-            "seconds_listened": 613.4758207798004,
-            "first_listened": 1768329809.302187,
-            "last_listened": 1768485420.454617,
-            "artist": "The Strokes",
-            "album": "The New Abnormal",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 3
-        },
-        "62yD1JVWHNG854ZauR5aBR": {
-            "name": "can't get you out of my head",
-            "seconds_listened": 319.94735884666443,
-            "first_listened": 1768330118.995823,
-            "last_listened": 1768488428.776728,
-            "artist": "JYLPO",
-            "album": "can't get you out of my head",
+        "0VjIjW4GlUZAMYd2vXMi3b": {
+            "name": "Blinding Lights",
+            "seconds_listened": 402.8797538280487,
+            "first_listened": 1768311334.551006,
+            "last_listened": 1768501292.060492,
+            "artist": "The Weeknd",
+            "album": "After Hours",
             "genre": null,
             "times_skipped": 0,
             "times_played": 2
         },
-        "7g1251d41qVR8kq6yz9XXa": {
-            "name": "pouring outside",
-            "seconds_listened": 313.47417521476746,
-            "first_listened": 1768330279.098621,
-            "last_listened": 1768487707.301966,
-            "artist": "dyl dion",
-            "album": "pouring outside",
+        "3u1FiuSpfsgVnekEMXgMwJ": {
+            "name": "Tag, You're It",
+            "seconds_listened": 377.47826313972473,
+            "first_listened": 1768311536.274288,
+            "last_listened": 1768498993.970479,
+            "artist": "Melanie Martinez",
+            "album": "Cry Baby (Deluxe Edition)",
             "genre": null,
             "times_skipped": 0,
             "times_played": 2
         },
-        "5odlY52u43F5BjByhxg7wg": {
-            "name": "golden hour",
-            "seconds_listened": 418.40981006622314,
-            "first_listened": 1768330435.819019,
-            "last_listened": 1768494051.837275,
-            "artist": "JVKE",
-            "album": "this is what ____ feels like (Vol. 1-4)",
+        "5gDWsRxpJ2lZAffh5p7K0w": {
+            "name": "Stargirl Interlude",
+            "seconds_listened": 112.42853903770447,
+            "first_listened": 1768499625.073803,
+            "last_listened": 1768499737.502342,
+            "artist": "The Weeknd",
+            "album": "Starboy",
             "genre": null,
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 1
         },
-        "1jDJFeK9x3OZboIAHsY9k2": {
-            "name": "I'm Still Standing",
-            "seconds_listened": 348.5674648284912,
-            "first_listened": 1768330644.693325,
-            "last_listened": 1768495715.781427,
-            "artist": "Elton John",
-            "album": "Too Low For Zero",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 6
-        },
-        "6F5mZpEEjhsAW8UEqbIpz1": {
-            "name": "Tired",
-            "seconds_listened": 400.3048481941223,
-            "first_listened": 1768330829.722719,
-            "last_listened": 1768486392.0585,
-            "artist": "beabadoobee",
-            "album": "Patched Up",
+        "1eVwRwTB6o7tC7bNGDj9av": {
+            "name": "Run em Down - Dro Kenji Edit",
+            "seconds_listened": 142.14528608322144,
+            "first_listened": 1768499737.502342,
+            "last_listened": 1768499879.647628,
+            "artist": "Graham Lake",
+            "album": "Run em Down (Dro Kenji Edit)",
             "genre": null,
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 1
         },
-        "5JKnYZOhSP7rOK0jPYcCjV": {
-            "name": "t r a n s p a r e n t s o u l feat. Travis Barker",
-            "seconds_listened": 337.1914846897125,
-            "first_listened": 1768331029.790584,
-            "last_listened": 1768487441.038787,
+        "0vbAosWswEidRk9OIgcje4": {
+            "name": "My Way - From \"Sing\" Original Motion Picture Soundtrack",
+            "seconds_listened": 257.77756905555725,
+            "first_listened": 1768500642.149966,
+            "last_listened": 1768500899.927535,
+            "artist": "Seth MacFarlane",
+            "album": "Sing (Original Motion Picture Soundtrack / Deluxe)",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "5qMq8ITRVuTwqd2pDL0gff": {
+            "name": "<maybe> it's my fault",
+            "seconds_listened": 39.998172998428345,
+            "first_listened": 1768504572.868869,
+            "last_listened": 1768504612.867042,
             "artist": "WILLOW",
-            "album": "lately I feel EVERYTHING",
+            "album": "<COPINGMECHANISM>",
             "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
+            "times_skipped": 1,
+            "times_played": 1
         },
-        "5roJHNawFJN8OObQtPr4vm": {
-            "name": "Lobster",
-            "seconds_listened": 498.0742380619049,
-            "first_listened": 1768331198.359043,
-            "last_listened": 1768489035.54651,
-            "artist": "Boy Called Cute",
-            "album": "Should Have & Could've Beens",
+        "58ECQRuxoQnaL3DmV6xqN0": {
+            "name": "Logic",
+            "seconds_listened": 60.400099992752075,
+            "first_listened": 1768274664.74959,
+            "last_listened": 1768274725.14969,
+            "artist": "D\u00f8dheimsgard",
+            "album": "666 International",
             "genre": null,
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 1
         },
         "0InIeZW4P6VO7dUGRM4AKH": {
             "name": "Sienna",
@@ -681,28 +791,6 @@
             "genre": null,
             "times_skipped": 0,
             "times_played": 1
-        },
-        "3BUc2A0MJ53FHwiy3eohBt": {
-            "name": "Nobody New",
-            "seconds_listened": 215.22337317466736,
-            "first_listened": 1768332580.893776,
-            "last_listened": 1768333021.690197,
-            "artist": "The Mar\u00edas",
-            "album": "Nobody New",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 2
-        },
-        "46WKVeSSbpvXS08JJpZusu": {
-            "name": "All The Best",
-            "seconds_listened": 383.661691904068,
-            "first_listened": 1768333021.69119,
-            "last_listened": 1768503722.422711,
-            "artist": "SIAMES",
-            "album": "All The Best",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
         },
         "0W95eMaAxNVYTquOsXXkC5": {
             "name": "Female Energy, Part 2",
@@ -1001,17 +1089,6 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "40iocOzytrqaRn5RbGPDNp": {
-            "name": "Cherry Flavoured",
-            "seconds_listened": 985.6125600337982,
-            "first_listened": 1768338478.706084,
-            "last_listened": 1768504788.334412,
-            "artist": "The Neighbourhood",
-            "album": "Chip Chrome & The Mono-Tones",
-            "genre": null,
-            "times_skipped": 2,
-            "times_played": 3
-        },
         "3gar285uWggoxHwOwO7Ng9": {
             "name": "Sidelines",
             "seconds_listened": 180.77988195419312,
@@ -1298,17 +1375,6 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "415dK4glwDO7fXxYg3np8B": {
-            "name": "Pictures of Girls",
-            "seconds_listened": 72.30097699165344,
-            "first_listened": 1768347585.063445,
-            "last_listened": 1768347723.425668,
-            "artist": "Wallows",
-            "album": "Spring EP",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 2
-        },
         "3mNbXNW3cu7L3XVrEHBV6B": {
             "name": "Stronger",
             "seconds_listened": 202.6703519821167,
@@ -1353,17 +1419,6 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "63Pi2NAx5yCgeLhCTOrEou": {
-            "name": "Headlock",
-            "seconds_listened": 253.5700945854187,
-            "first_listened": 1768348476.701986,
-            "last_listened": 1768504856.728767,
-            "artist": "Imogen Heap",
-            "album": "Speak for Yourself (Deluxe Version)",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 16
-        },
         "7mEPuj0XW6eK14Unu6IUc1": {
             "name": "Eclipse (feat. Substantial)",
             "seconds_listened": 16.543313026428223,
@@ -1374,28 +1429,6 @@
             "genre": null,
             "times_skipped": 1,
             "times_played": 1
-        },
-        "5P4Dow1Jc2NhkknIuPi5Nd": {
-            "name": "Rain (feat. Vince Staples)",
-            "seconds_listened": 14.596771955490112,
-            "first_listened": 1768394952.911149,
-            "last_listened": 1768394967.507921,
-            "artist": "Mac Miller",
-            "album": "Faces",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "06nhoOF0GViBt0LUWyCTNA": {
-            "name": "Run, Run, Run Pt. II",
-            "seconds_listened": 95.90240693092346,
-            "first_listened": 1768395531.914196,
-            "last_listened": 1768395635.772385,
-            "artist": "McKinley Dixon",
-            "album": "Magic, Alive!",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 2
         },
         "5dLz8bhINeCWgppiUIcafp": {
             "name": "HAZARD DUTY PAY!",
@@ -1672,28 +1705,6 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "11aFVmFy8903RwDx4ohQiq": {
-            "name": "Be (Intro)",
-            "seconds_listened": 289.6661567687988,
-            "first_listened": 1768411336.503359,
-            "last_listened": 1768412377.92627,
-            "artist": "Common",
-            "album": "Be",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
-        },
-        "1cSSLL7OmIWvVocmIZ4jwm": {
-            "name": "THE KILLER SHEWOLF.",
-            "seconds_listened": 315.8877639770508,
-            "first_listened": 1768411481.437805,
-            "last_listened": 1768413401.565445,
-            "artist": "jev.",
-            "album": "when angels cry",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
-        },
         "1fNpOEgu770UrRTzeVsKZT": {
             "name": "Streets on Fire",
             "seconds_listened": 281.08753395080566,
@@ -1815,24 +1826,13 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "0QpX5ZqHAhtRVQKLJz0RVG": {
-            "name": "HOLY ____",
-            "seconds_listened": 455.72745513916016,
-            "first_listened": 1768414151.537111,
-            "last_listened": 1768447959.472769,
-            "artist": "Mach-Hommy",
-            "album": "#RICHAXXHAITIAN",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
-        },
-        "4DANjjR596Z2Vd5xqlQpsO": {
-            "name": "freedom or fame ?",
-            "seconds_listened": 196.45806288719177,
-            "first_listened": 1768414379.646325,
-            "last_listened": 1768414576.104388,
-            "artist": "jev.",
-            "album": "the color grey.",
+        "5P4Dow1Jc2NhkknIuPi5Nd": {
+            "name": "Rain (feat. Vince Staples)",
+            "seconds_listened": 14.596771955490112,
+            "first_listened": 1768394952.911149,
+            "last_listened": 1768394967.507921,
+            "artist": "Mac Miller",
+            "album": "Faces",
             "genre": null,
             "times_skipped": 0,
             "times_played": 1
@@ -1938,7 +1938,7 @@
         },
         "6zSLy6mrBrMlzaIn9UDw6o": {
             "name": "SIN MIEDO",
-            "seconds_listened": 0,
+            "seconds_listened": 0.0,
             "first_listened": 1768416384.901186,
             "last_listened": 1768416384.901186,
             "artist": "JPEGMAFIA",
@@ -1947,16 +1947,16 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "1R6nmC4HUGOGSKU02Wqa0v": {
-            "name": "The Coolest",
-            "seconds_listened": 159.62423992156982,
-            "first_listened": 1768416785.701292,
-            "last_listened": 1768416974.664242,
-            "artist": "Lupe Fiasco",
-            "album": "Lupe Fiasco's The Cool",
+        "4wm3QZeaGy8Frl55N3odG2": {
+            "name": "Thorn King",
+            "seconds_listened": 60.36972212791443,
+            "first_listened": 1768274725.14969,
+            "last_listened": 1768274785.519412,
+            "artist": "Profanatica",
+            "album": "Altar of the Virgin Whore",
             "genre": null,
-            "times_skipped": 1,
-            "times_played": 3
+            "times_skipped": 0,
+            "times_played": 1
         },
         "0g0xi4UvTRtDE5NVGAd9Cy": {
             "name": "Bloodline Freestyle (2022 Demo)",
@@ -1969,16 +1969,16 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "4Gqh7XRuYd4TtFFqooSyrv": {
-            "name": "Real People",
-            "seconds_listened": 162.9532651901245,
-            "first_listened": 1768417113.561271,
-            "last_listened": 1768417282.247446,
-            "artist": "Common",
-            "album": "Be",
+        "1SOcy2ih1UUipdmIfcmrh4": {
+            "name": "Intro",
+            "seconds_listened": 60.11421084403992,
+            "first_listened": 1768274785.519412,
+            "last_listened": 1768274845.633623,
+            "artist": "Immortal",
+            "album": "Blizzard Beasts",
             "genre": null,
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 1
         },
         "0dAFYiW4zXXhmXXCINl5H7": {
             "name": "Stand on Trial",
@@ -2013,27 +2013,27 @@
             "times_skipped": 1,
             "times_played": 1
         },
-        "1dJ1TP6gX47dJaV0NDAyCC": {
-            "name": "testimony",
-            "seconds_listened": 144.08311009407043,
-            "first_listened": 1768418289.851802,
-            "last_listened": 1768418492.800376,
-            "artist": "MAVI",
-            "album": "shadowbox",
+        "0CPYUk0GSH6PpvLGQjvczr": {
+            "name": "Intro",
+            "seconds_listened": 61.10105919837952,
+            "first_listened": 1768274845.633623,
+            "last_listened": 1768274906.734682,
+            "artist": "D\u00f8dheimsgard",
+            "album": "Kronet Til Konge",
             "genre": null,
-            "times_skipped": 1,
-            "times_played": 4
+            "times_skipped": 0,
+            "times_played": 1
         },
-        "4lovbNtAeIxtXWy9bwEsQk": {
-            "name": "Steps Beach",
-            "seconds_listened": 214.3165910243988,
-            "first_listened": 1768418492.80138,
-            "last_listened": 1768418722.877934,
-            "artist": "Childish Gambino",
-            "album": "Bando Stone and The New World",
+        "3iW3y326xuRpNVXzOMBZy5": {
+            "name": "Not Just Money",
+            "seconds_listened": 23.494210958480835,
+            "first_listened": 1768274906.734682,
+            "last_listened": 1768274930.228893,
+            "artist": "Frank Ocean",
+            "album": "channel ORANGE",
             "genre": null,
             "times_skipped": 1,
-            "times_played": 2
+            "times_played": 1
         },
         "6IJYGv8V1btqqxcpsCsOq7": {
             "name": "Listen Gentle",
@@ -2134,16 +2134,16 @@
             "times_skipped": 1,
             "times_played": 1
         },
-        "2T28tl7T9TR4qQqFGTHL1c": {
-            "name": "COPY COLD",
-            "seconds_listened": 241.3775646686554,
-            "first_listened": 1768420870.343929,
-            "last_listened": 1768425717.640791,
-            "artist": "Mach-Hommy",
-            "album": "#RICHAXXHAITIAN",
+        "4rJHH484bHZDts51o5i2CB": {
+            "name": "I'd Rather Pretend",
+            "seconds_listened": 185.0753710269928,
+            "first_listened": 1768275778.042799,
+            "last_listened": 1768275963.11817,
+            "artist": "Bryant Barnes",
+            "album": "VANITY",
             "genre": null,
             "times_skipped": 1,
-            "times_played": 2
+            "times_played": 1
         },
         "4blsfvopYv1ZbgImTl3i8D": {
             "name": "The Story so Far",
@@ -2211,16 +2211,16 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "4No5AkSyE2kw2yBx1rAA49": {
-            "name": "Samurai (feat. Troy Tyler)",
-            "seconds_listened": 273.26986479759216,
-            "first_listened": 1768426801.19524,
-            "last_listened": 1768427075.686895,
-            "artist": "Lupe Fiasco",
-            "album": "Samurai + Palaces",
+        "2bjxKyGCrBv8JFXvo6Qdrk": {
+            "name": "Forget About Life",
+            "seconds_listened": 164.1923840045929,
+            "first_listened": 1768275963.11817,
+            "last_listened": 1768276127.310554,
+            "artist": "Alvvays",
+            "album": "Antisocialites",
             "genre": null,
             "times_skipped": 1,
-            "times_played": 2
+            "times_played": 1
         },
         "6UqF5GCsyPM69p7faDKmsX": {
             "name": "Crooked Stick (feat. Ghais Guevera and Alfred.)",
@@ -2244,16 +2244,16 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "5sb40Fb2TgFO1xxuHPhsDj": {
-            "name": "The Darkest Part (feat. Raekwon and Kid Sister)",
-            "seconds_listened": 209.44157218933105,
-            "first_listened": 1768427426.369579,
-            "last_listened": 1768427651.752871,
-            "artist": "Danger Mouse",
-            "album": "Cheat Codes",
+        "7seK7cskNRsFmlGXv4Rw5Q": {
+            "name": "banana pie",
+            "seconds_listened": 169.99812388420105,
+            "first_listened": 1768489374.742979,
+            "last_listened": 1768489544.741103,
+            "artist": "Lil Darkie",
+            "album": "banana pie",
             "genre": null,
-            "times_skipped": 1,
-            "times_played": 3
+            "times_skipped": 0,
+            "times_played": 1
         },
         "2vyy3jKeULwP2ZL5qsSE4I": {
             "name": "the sky is quiet",
@@ -2277,16 +2277,16 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "5yVRwEPSCpcuOUgkz2T0Lu": {
-            "name": "\"Radio\"",
-            "seconds_listened": 191.39330291748047,
-            "first_listened": 1768427997.81291,
-            "last_listened": 1768428630.486765,
-            "artist": "Vince Staples",
-            "album": "Dark Times",
+        "4DANjjR596Z2Vd5xqlQpsO": {
+            "name": "freedom or fame ?",
+            "seconds_listened": 196.45806288719177,
+            "first_listened": 1768414379.646325,
+            "last_listened": 1768414576.104388,
+            "artist": "jev.",
+            "album": "the color grey.",
             "genre": null,
-            "times_skipped": 1,
-            "times_played": 2
+            "times_skipped": 0,
+            "times_played": 1
         },
         "3RXGbZhy0Hyur2mSVDlu51": {
             "name": "TAKE ME HOME",
@@ -3236,7 +3236,7 @@
         },
         "4fR8CJztzJ6kUEIw1dBdaO": {
             "name": "Feelin' The Love",
-            "seconds_listened": 0,
+            "seconds_listened": 0.0,
             "first_listened": 1768452536.757212,
             "last_listened": 1768452536.757212,
             "artist": "Vince Staples",
@@ -3245,16 +3245,16 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "5MxNLUsfh7uzROypsoO5qe": {
-            "name": "Dream On",
-            "seconds_listened": 261.9766113758087,
-            "first_listened": 1768484815.463167,
-            "last_listened": 1768485110.998042,
-            "artist": "Aerosmith",
-            "album": "Aerosmith",
+        "5QCfOMH5K7bS4dH7H7PNeI": {
+            "name": "Tonight",
+            "seconds_listened": 174.9543480873108,
+            "first_listened": 1768501479.319593,
+            "last_listened": 1768501654.273941,
+            "artist": "PinkPantheress",
+            "album": "Fancy That",
             "genre": null,
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 1
         },
         "5zgkOLH6HfY5w8thZoS2jP": {
             "name": "No Wind Resistance!",
@@ -3322,189 +3322,13 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "7seK7cskNRsFmlGXv4Rw5Q": {
-            "name": "banana pie",
-            "seconds_listened": 169.99812388420105,
-            "first_listened": 1768489374.742979,
-            "last_listened": 1768489544.741103,
-            "artist": "Lil Darkie",
-            "album": "banana pie",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "0nKpHGrnuejevp6openGaF": {
-            "name": "Cold",
-            "seconds_listened": 229.2081220149994,
-            "first_listened": 1768489738.783652,
-            "last_listened": 1768489967.991774,
-            "artist": "Rich Brian",
-            "album": "Amen",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "5fqusHbZRDZrLikLiFwWTq": {
-            "name": "Gilded Lily - Sped Up",
-            "seconds_listened": 193.10396599769592,
-            "first_listened": 1768494246.682459,
-            "last_listened": 1768494439.786425,
-            "artist": "Cults",
-            "album": "Offering",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "4Q09JEsHAZhHOIPTqDGeB2": {
-            "name": "Falling Asleep",
-            "seconds_listened": 109.83894491195679,
-            "first_listened": 1768494439.786425,
-            "last_listened": 1768494549.62537,
-            "artist": "Dominic Fike",
-            "album": "Don't Forget About Me, Demos",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "7yBEKiv1LmO7GM4rOejhcW": {
-            "name": "SPIT IN MY FACE!",
-            "seconds_listened": 148.90068697929382,
-            "first_listened": 1768496385.525847,
-            "last_listened": 1768496534.426534,
-            "artist": "ThxSoMch",
-            "album": "SPIT IN MY FACE!",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "2Foc5Q5nqNiosCNqttzHof": {
-            "name": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
-            "seconds_listened": 248.16064596176147,
-            "first_listened": 1768496955.669815,
-            "last_listened": 1768497203.830461,
-            "artist": "Daft Punk",
-            "album": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "3oL3XRtkP1WVbMxf7dtTdu": {
-            "name": "The One That Got Away",
-            "seconds_listened": 226.9033179283142,
-            "first_listened": 1768497203.83147,
-            "last_listened": 1768497430.734788,
-            "artist": "Katy Perry",
-            "album": "Teenage Dream: The Complete Confection",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "7FGq80cy8juXBCD2nrqdWU": {
-            "name": "Eastside (with Halsey & Khalid)",
-            "seconds_listened": 171.30431294441223,
-            "first_listened": 1768497827.352989,
-            "last_listened": 1768497998.657302,
-            "artist": "benny blanco",
-            "album": "FRIENDS KEEP SECRETS",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "2FRnf9qhLbvw8fu4IBXx78": {
-            "name": "Last Christmas",
-            "seconds_listened": 263.44322896003723,
-            "first_listened": 1768497998.658302,
-            "last_listened": 1768498262.101531,
-            "artist": "Wham!",
-            "album": "LAST CHRISTMAS",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "21jGcNKet2qwijlDFuPiPb": {
-            "name": "Circles",
-            "seconds_listened": 215.73237705230713,
-            "first_listened": 1768498993.970479,
-            "last_listened": 1768499209.702856,
-            "artist": "Post Malone",
-            "album": "Hollywood's Bleeding",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "7yfGRLpyVn2qiyU9FR86Ww": {
-            "name": "I Lost a Friend",
-            "seconds_listened": 237.25319290161133,
-            "first_listened": 1768499209.702856,
-            "last_listened": 1768499446.956049,
-            "artist": "FINNEAS",
-            "album": "Blood Harmony (Deluxe)",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "7DcJ6fEBb7BaKuYKTwiDxK": {
-            "name": "Homage",
-            "seconds_listened": 178.11775398254395,
-            "first_listened": 1768499446.956049,
-            "last_listened": 1768499625.073803,
-            "artist": "Mild High Club",
-            "album": "Skiptracing",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "5gDWsRxpJ2lZAffh5p7K0w": {
-            "name": "Stargirl Interlude",
-            "seconds_listened": 112.42853903770447,
-            "first_listened": 1768499625.073803,
-            "last_listened": 1768499737.502342,
-            "artist": "The Weeknd",
-            "album": "Starboy",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "1eVwRwTB6o7tC7bNGDj9av": {
-            "name": "Run em Down - Dro Kenji Edit",
-            "seconds_listened": 142.14528608322144,
-            "first_listened": 1768499737.502342,
-            "last_listened": 1768499879.647628,
-            "artist": "Graham Lake",
-            "album": "Run em Down (Dro Kenji Edit)",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "0vbAosWswEidRk9OIgcje4": {
-            "name": "My Way - From \"Sing\" Original Motion Picture Soundtrack",
-            "seconds_listened": 257.77756905555725,
-            "first_listened": 1768500642.149966,
-            "last_listened": 1768500899.927535,
-            "artist": "Seth MacFarlane",
-            "album": "Sing (Original Motion Picture Soundtrack / Deluxe)",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "1bJw91vMlG4NPE2iZtG4Uj": {
-            "name": "Can't Relate (Feat. Poorstacy)",
-            "seconds_listened": 187.2580919265747,
-            "first_listened": 1768501292.061501,
-            "last_listened": 1768501479.319593,
-            "artist": "Franke",
-            "album": "Can't Relate (Feat. Poorstacy)",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
-        },
-        "5QCfOMH5K7bS4dH7H7PNeI": {
-            "name": "Tonight",
-            "seconds_listened": 174.9543480873108,
-            "first_listened": 1768501479.319593,
-            "last_listened": 1768501654.273941,
-            "artist": "PinkPantheress",
-            "album": "Fancy That",
+        "6TcxxINfeaBEQ35sHMldTD": {
+            "name": "Dreams Tonite",
+            "seconds_listened": 0.0,
+            "first_listened": 1768276127.310554,
+            "last_listened": 1768276127.310554,
+            "artist": "Alvvays",
+            "album": "Antisocialites",
             "genre": null,
             "times_skipped": 0,
             "times_played": 1
@@ -3630,16 +3454,16 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "4CBGocqDmAjJLcA9sA9EXF": {
-            "name": "Cary Me Back",
-            "seconds_listened": 207.40012001991272,
-            "first_listened": 1768504004.279563,
-            "last_listened": 1768504237.744817,
-            "artist": "Mild High Club",
-            "album": "Skiptracing",
+        "1bJw91vMlG4NPE2iZtG4Uj": {
+            "name": "Can't Relate (Feat. Poorstacy)",
+            "seconds_listened": 187.2580919265747,
+            "first_listened": 1768501292.061501,
+            "last_listened": 1768501479.319593,
+            "artist": "Franke",
+            "album": "Can't Relate (Feat. Poorstacy)",
             "genre": null,
-            "times_skipped": 1,
-            "times_played": 2
+            "times_skipped": 0,
+            "times_played": 1
         },
         "7M6KOBCfPzWqbkiaXnm7bd": {
             "name": "Too Close",
@@ -3663,15 +3487,191 @@
             "times_skipped": 0,
             "times_played": 1
         },
-        "5qMq8ITRVuTwqd2pDL0gff": {
-            "name": "<maybe> it's my fault",
-            "seconds_listened": 39.998172998428345,
-            "first_listened": 1768504572.868869,
-            "last_listened": 1768504612.867042,
-            "artist": "WILLOW",
-            "album": "<COPINGMECHANISM>",
+        "36QO6pUIPeTCUmq2D2xihZ": {
+            "name": "Hand Without A Body",
+            "seconds_listened": 59.793132066726685,
+            "first_listened": 1768274484.2035,
+            "last_listened": 1768274543.996632,
+            "artist": "Half Japanese",
+            "album": "Half Japanese Volume 3: 1990-1995",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "6R7FvVrMVK971TVxOU2Ab9": {
+            "name": "I Can Hear Music - Demo",
+            "seconds_listened": 3.6781411170959473,
+            "first_listened": 1768274480.525359,
+            "last_listened": 1768274484.2035,
+            "artist": "The Beach Boys",
+            "album": "I Can Hear Music: The 20/20 Sessions",
             "genre": null,
             "times_skipped": 1,
+            "times_played": 1
+        },
+        "3ZvizGdIjQuTdt8sChAPWL": {
+            "name": "keep it in the dark",
+            "seconds_listened": 13.758610963821411,
+            "first_listened": 1768307538.637996,
+            "last_listened": 1768307552.396607,
+            "artist": "Capital Soiree",
+            "album": "keep it in the dark",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "5rMpIDvONQ5jgjFfgzl0An": {
+            "name": "What Do You Want?",
+            "seconds_listened": 122.23753905296326,
+            "first_listened": 1768307632.330395,
+            "last_listened": 1768307754.567934,
+            "artist": "Yndling",
+            "album": "Mood Booster",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "6wFKwkqFmB3SJcJ7dCodMp": {
+            "name": "Turn It Up",
+            "seconds_listened": 60.1432671546936,
+            "first_listened": 1768274543.99763,
+            "last_listened": 1768274604.140897,
+            "artist": "Galaxy Express",
+            "album": "Electric Jungle",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "0nKpHGrnuejevp6openGaF": {
+            "name": "Cold",
+            "seconds_listened": 229.2081220149994,
+            "first_listened": 1768489738.783652,
+            "last_listened": 1768489967.991774,
+            "artist": "Rich Brian",
+            "album": "Amen",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "5fqusHbZRDZrLikLiFwWTq": {
+            "name": "Gilded Lily - Sped Up",
+            "seconds_listened": 193.10396599769592,
+            "first_listened": 1768494246.682459,
+            "last_listened": 1768494439.786425,
+            "artist": "Cults",
+            "album": "Offering",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "4Q09JEsHAZhHOIPTqDGeB2": {
+            "name": "Falling Asleep",
+            "seconds_listened": 109.83894491195679,
+            "first_listened": 1768494439.786425,
+            "last_listened": 1768494549.62537,
+            "artist": "Dominic Fike",
+            "album": "Don't Forget About Me, Demos",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "7yBEKiv1LmO7GM4rOejhcW": {
+            "name": "SPIT IN MY FACE!",
+            "seconds_listened": 148.90068697929382,
+            "first_listened": 1768496385.525847,
+            "last_listened": 1768496534.426534,
+            "artist": "ThxSoMch",
+            "album": "SPIT IN MY FACE!",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "2Foc5Q5nqNiosCNqttzHof": {
+            "name": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+            "seconds_listened": 248.16064596176147,
+            "first_listened": 1768496955.669815,
+            "last_listened": 1768497203.830461,
+            "artist": "Daft Punk",
+            "album": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "3oL3XRtkP1WVbMxf7dtTdu": {
+            "name": "The One That Got Away",
+            "seconds_listened": 226.9033179283142,
+            "first_listened": 1768497203.83147,
+            "last_listened": 1768497430.734788,
+            "artist": "Katy Perry",
+            "album": "Teenage Dream: The Complete Confection",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "7FGq80cy8juXBCD2nrqdWU": {
+            "name": "Eastside (with Halsey & Khalid)",
+            "seconds_listened": 171.30431294441223,
+            "first_listened": 1768497827.352989,
+            "last_listened": 1768497998.657302,
+            "artist": "benny blanco",
+            "album": "FRIENDS KEEP SECRETS",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "2FRnf9qhLbvw8fu4IBXx78": {
+            "name": "Last Christmas",
+            "seconds_listened": 263.44322896003723,
+            "first_listened": 1768497998.658302,
+            "last_listened": 1768498262.101531,
+            "artist": "Wham!",
+            "album": "LAST CHRISTMAS",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "21jGcNKet2qwijlDFuPiPb": {
+            "name": "Circles",
+            "seconds_listened": 215.73237705230713,
+            "first_listened": 1768498993.970479,
+            "last_listened": 1768499209.702856,
+            "artist": "Post Malone",
+            "album": "Hollywood's Bleeding",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "7yfGRLpyVn2qiyU9FR86Ww": {
+            "name": "I Lost a Friend",
+            "seconds_listened": 237.25319290161133,
+            "first_listened": 1768499209.702856,
+            "last_listened": 1768499446.956049,
+            "artist": "FINNEAS",
+            "album": "Blood Harmony (Deluxe)",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "7DcJ6fEBb7BaKuYKTwiDxK": {
+            "name": "Homage",
+            "seconds_listened": 178.11775398254395,
+            "first_listened": 1768499446.956049,
+            "last_listened": 1768499625.073803,
+            "artist": "Mild High Club",
+            "album": "Skiptracing",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1
+        },
+        "1z021pfmI681uLVplsoftZ": {
+            "name": "Lonely Boy with a Toy Ukulele",
+            "seconds_listened": 60.60769295692444,
+            "first_listened": 1768274604.140897,
+            "last_listened": 1768274664.74859,
+            "artist": "Tomppabeats",
+            "album": "Discography 2016",
+            "genre": null,
+            "times_skipped": 0,
             "times_played": 1
         }
     },

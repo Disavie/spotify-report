@@ -120,7 +120,8 @@ def new_track(_data, current_song_id):
                         "album" : song.get("album", {}).get("name", "Unknown"),
                         "genre" : None,
                         "times_skipped" : 0,
-                        "times_played"  : 1
+                        "times_played"  : 1,
+                        "track_length"  : song.get("duration_ms") / 1000
                     }
 CURRENT_SONG_URL = "https://api.spotify.com/v1/me/player/currently-playing"
 
@@ -152,13 +153,20 @@ current_day = -1
 
 while(1):
     #autosave
-    if save_please or current_timestamp() - last_save_time > 900: #15 minutes -> i dont think this is actually 15 minutes
+    if save_please or current_timestamp() - last_save_time > 900: #15 minutes
          last_save_time = current_timestamp()
          save_please = 0
          closedata(_data)
+         print(f"--> Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
          #myemail.send_email(myemail.MY_EMAIL,"Autosave",f"Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
 
-         print(f"--> Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
+    if current_timestamp() - last_save_time > 3600: #1 hour
+        print("ITS BEEN AN HOUR")
+        myemail.send_email(myemail.MY_EMAIL,
+                               "Daily Summary",
+                               f"You spent {_data["dates"][current_day]["seconds_listened"]/60} minutes listening to Spotify on {current_day} (or {_data["dates"][current_day]["seconds_listened"]/60/60} hours)")
+
+
 
     #daily notifications , will send an email summary of previous day at midnight
     if get_midnight(current_timestamp()) != current_day:
@@ -277,18 +285,18 @@ while(1):
         time.sleep(1)
 
     except KeyboardInterrupt:
-        print(f'\t START{_data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
+        #print(f'\t START{_data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
 
         if current_song_id != -1:
             update_data(_data, current_song_id)
-            print("jere2")
+            #print("jere2")
             if paused:
                 print('jere')
                 tp = current_timestamp() - time_paused
                 _data["tracks"][current_song_id]["seconds_listened"] -= tp
                 _data["dates"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
 
-        print(f'\t END{_data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
+        #print(f'\t END{_data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
         closedata(_data)
 
         exit()      
