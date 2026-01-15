@@ -1357,12 +1357,12 @@
             "name": "Headlock",
             "seconds_listened": 253.5700945854187,
             "first_listened": 1768348476.701986,
-            "last_listened": 1768504856.728767,
+            "last_listened": 1768505056.207056,
             "artist": "Imogen Heap",
             "album": "Speak for Yourself (Deluxe Version)",
             "genre": null,
-            "times_skipped": 0,
-            "times_played": 16
+            "times_skipped": 1,
+            "times_played": 17
         },
         "7mEPuj0XW6eK14Unu6IUc1": {
             "name": "Eclipse (feat. Substantial)",
@@ -3673,6 +3673,18 @@
             "genre": null,
             "times_skipped": 1,
             "times_played": 1
+        },
+        "0OCCHnSgnNho7JA2XVYZVk": {
+            "name": "headlock",
+            "seconds_listened": 3.65198016166687,
+            "first_listened": 1768505056.208047,
+            "last_listened": 1768505060.525557,
+            "artist": "ANDREWBATES",
+            "album": "headlock",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 164.746
         }
     },
     "dates": {
@@ -3686,7 +3698,7 @@
             "seconds_listened": 31904.524549484253
         },
         "2026-01-15 00:00:00": {
-            "seconds_listened": 15441.61830997467
+            "seconds_listened": 15445.270290136337
         }
     }
 }

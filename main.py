@@ -150,6 +150,7 @@ seconds_listened_when_track_begin = 0
 duration_s = 0
 save_please = 1
 current_day = -1
+last_notif_time = current_timestamp()
 
 while(1):
     #autosave
@@ -160,7 +161,8 @@ while(1):
          print(f"--> Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
          #myemail.send_email(myemail.MY_EMAIL,"Autosave",f"Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
 
-    if current_timestamp() - last_save_time > 3600: #1 hour
+    if current_timestamp() - last_notif_time > 3600: #1 hour
+        last_notif_time = current_timestamp()
         print("ITS BEEN AN HOUR")
         myemail.send_email(myemail.MY_EMAIL,
                                "Daily Summary",
