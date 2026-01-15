@@ -169,9 +169,8 @@ while(1):
          current_day = get_midnight(current_timestamp())
 
     #add day to "data/dates"
-    date = get_midnight(current_day)
-    if date not in _data["dates"]:
-        _data["dates"][date] = {
+    if current_day not in _data["dates"]:
+        _data["dates"][current_day] = {
             "seconds_listened" : 0
         }
 
