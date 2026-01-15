@@ -2103,14 +2103,14 @@
         },
         "1SKtsG3EsJw75hNMRrCgLm": {
             "name": "No. 1 Headband",
-            "seconds_listened": 264.7551980018616,
+            "seconds_listened": 288.09405493736267,
             "first_listened": 1768420176.707126,
-            "last_listened": 1768420441.462324,
+            "last_listened": 1768506962.628299,
             "artist": "Lupe Fiasco",
             "album": "Samurai",
             "genre": null,
             "times_skipped": 0,
-            "times_played": 1
+            "times_played": 3
         },
         "4so0c8plnJDYDCZtZCfsHr": {
             "name": "Aquamarine (feat. Michael Kiwanuka)",
@@ -3685,6 +3685,54 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": 164.746
+        },
+        "0T2mWEwC6VTFWN7g7NV0Ip": {
+            "name": "Asdasdasdasd (Let's Start a Riotttt)",
+            "seconds_listened": 4.712021827697754,
+            "first_listened": 1768506913.44953,
+            "last_listened": 1768506920.632396,
+            "artist": "plaksasdasd",
+            "album": "Asdasdasd",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 1,
+            "track_length": 136.066
+        },
+        "4BSrNM19PVRQ95FJNekoHo": {
+            "name": "Agaagaagaaga (All About Dat Caaaash)",
+            "seconds_listened": 10.79321813583374,
+            "first_listened": 1768506920.632396,
+            "last_listened": 1768506931.425614,
+            "artist": "plaksasdasd",
+            "album": "Agaagaagaaga (All About Dat Caaaash)",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 1,
+            "track_length": 122.455
+        },
+        "0G1dRqxX1KHMrwvKpqVgbn": {
+            "name": "Time Slips",
+            "seconds_listened": 2.4797239303588867,
+            "first_listened": 1768507735.980828,
+            "last_listened": 1768507738.460552,
+            "artist": "Navy Blue",
+            "album": "Memoirs In Armour",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 149.038
+        },
+        "51Rs7xpi3HxrqvN1bI0i5w": {
+            "name": "The Stellar Ray Theory",
+            "seconds_listened": 86.22217106819153,
+            "first_listened": 1768508663.926498,
+            "last_listened": 1768508750.148669,
+            "artist": "Mach-Hommy",
+            "album": "Pray For Haiti",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 194.652
         }
     },
     "dates": {
@@ -3698,7 +3746,7 @@
             "seconds_listened": 31904.524549484253
         },
         "2026-01-15 00:00:00": {
-            "seconds_listened": 15445.270290136337
+            "seconds_listened": 15572.81628203392
         }
     }
 }

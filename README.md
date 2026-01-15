@@ -4,6 +4,16 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit #13:
+    stopify loop is on a thread now
+    command line access;
+        start
+        stop
+        quit
+        sort
+        save
+        push -> sends notification
+
 commit #12: hourly notifications
 
 commit #11 : 1/15/26
