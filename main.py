@@ -29,7 +29,6 @@ def get_midnight(timestamp):
 def current_timestamp():
     return datetime.datetime.now().timestamp()
 
-START_TIME = current_timestamp()
 
 
 def opendata():
@@ -170,7 +169,7 @@ while(1):
          current_day = get_midnight(current_timestamp())
 
     #add day to "data/dates"
-    date = get_midnight(START_TIME)
+    date = get_midnight(current_day)
     if date not in _data["dates"]:
         _data["dates"][date] = {
             "seconds_listened" : 0

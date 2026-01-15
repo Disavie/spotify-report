@@ -4,6 +4,9 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit #10: 1/15/26
+    fixed midnight crash errror with START_TIME -> current_day
+
 commit #9 1/14/26:
     added email error notifcations,
 ->add daily email summary
