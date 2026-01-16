@@ -1,5 +1,29 @@
 {
     "tracks": {
+        "7fwdaT4sij27QUYGfHShDh": {
+            "name": "SONJE",
+            "seconds_listened": 1282.8990659713745,
+            "first_listened": 1768413034.816083,
+            "last_listened": 1768525808.434437,
+            "artist": "Mach-Hommy",
+            "album": "#RICHAXXHAITIAN",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 5,
+            "track_length": NaN
+        },
+        "20SWnAlDGcswjHSKIrwDb8": {
+            "name": "This Man",
+            "seconds_listened": 1086.8451318740845,
+            "first_listened": 1768414967.918993,
+            "last_listened": 1768514741.765606,
+            "artist": "Common",
+            "album": "The Auditorium Vol. 1",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 3,
+            "track_length": NaN
+        },
         "40iocOzytrqaRn5RbGPDNp": {
             "name": "Cherry Flavoured",
             "seconds_listened": 985.6125600337982,
@@ -34,6 +58,30 @@
             "genre": null,
             "times_skipped": 1,
             "times_played": 3,
+            "track_length": NaN
+        },
+        "7aZqkLRsigNznFJa2sCuT1": {
+            "name": "Cripple (feat. Elena Pinderhughes)",
+            "seconds_listened": 583.6877999305725,
+            "first_listened": 1768418979.111077,
+            "last_listened": 1768510218.41518,
+            "artist": "Lupe Fiasco",
+            "album": "DROGAS WAVE",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2,
+            "track_length": NaN
+        },
+        "0orVpwtWOKLJ7ahceb78ar": {
+            "name": "All the Loved Ones (What Would We Do???) (feat. ICECOLDBISHOP and Pink Siifu)",
+            "seconds_listened": 572.3693177700043,
+            "first_listened": 1768417466.513791,
+            "last_listened": 1768509795.697814,
+            "artist": "McKinley Dixon",
+            "album": "Magic, Alive!",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2,
             "track_length": NaN
         },
         "3HMs6oEv2YTeRWlOCGDupC": {
@@ -71,6 +119,18 @@
             "times_skipped": 1,
             "times_played": 1,
             "track_length": NaN
+        },
+        "2zWZV7b1xu1qZPaMjavvpS": {
+            "name": "Mural",
+            "seconds_listened": 530.3612852096558,
+            "first_listened": 1768521115.900349,
+            "last_listened": 1768521646.261634,
+            "artist": "Lupe Fiasco",
+            "album": "Tetsuo & Youth",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 528.88
         },
         "1DSnG32XcPhmY0rg60UKjP": {
             "name": "Me and My Synths",
@@ -180,6 +240,18 @@
             "times_played": 2,
             "track_length": NaN
         },
+        "70YS0OCo66lmeeOGBeh3eH": {
+            "name": "Live! from the Kitchen Table",
+            "seconds_listened": 406.3363871574402,
+            "first_listened": 1768409099.311329,
+            "last_listened": 1768511061.261151,
+            "artist": "McKinley Dixon",
+            "album": "Beloved! Paradise! Jazz!?",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2,
+            "track_length": NaN
+        },
         "0VjIjW4GlUZAMYd2vXMi3b": {
             "name": "Blinding Lights",
             "seconds_listened": 402.8797538280487,
@@ -203,6 +275,18 @@
             "times_skipped": 0,
             "times_played": 2,
             "track_length": NaN
+        },
+        "0BWve9OJvo7ONwfR36Ty6Z": {
+            "name": "WAV Files",
+            "seconds_listened": 398.7088749408722,
+            "first_listened": 1768516319.895479,
+            "last_listened": 1768516718.604354,
+            "artist": "Lupe Fiasco",
+            "album": "DROGAS WAVE",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 398.202
         },
         "22nyEAEM29tcBRhukR089b": {
             "name": "Icon",
@@ -312,6 +396,18 @@
             "times_played": 3,
             "track_length": NaN
         },
+        "2PXJysZgociSlKvZ1Y4NDw": {
+            "name": "LON LON",
+            "seconds_listened": 364.5779981613159,
+            "first_listened": 1768415348.023581,
+            "last_listened": 1768522227.803512,
+            "artist": "Mach-Hommy",
+            "album": "#RICHAXXHAITIAN",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2,
+            "track_length": NaN
+        },
         "5SzMK8faj8N8llRhfd0xzp": {
             "name": "Alone But Alone With You",
             "seconds_listened": 363.52122020721436,
@@ -372,6 +468,18 @@
             "times_played": 3,
             "track_length": NaN
         },
+        "4blsfvopYv1ZbgImTl3i8D": {
+            "name": "The Story so Far",
+            "seconds_listened": 340.57932019233704,
+            "first_listened": 1768425717.643786,
+            "last_listened": 1768517999.801455,
+            "artist": "McKinley Dixon",
+            "album": "Beloved! Paradise! Jazz!?",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2,
+            "track_length": NaN
+        },
         "5JKnYZOhSP7rOK0jPYcCjV": {
             "name": "t r a n s p a r e n t s o u l feat. Travis Barker",
             "seconds_listened": 337.1914846897125,
@@ -418,6 +526,18 @@
             "genre": null,
             "times_skipped": 0,
             "times_played": 1,
+            "track_length": NaN
+        },
+        "0WfsDFQY3t0nDyWF89QKfe": {
+            "name": "latch",
+            "seconds_listened": 320.8399829864502,
+            "first_listened": 1768408489.88792,
+            "last_listened": 1768520976.334507,
+            "artist": "MAVI",
+            "album": "shadowbox",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2,
             "track_length": NaN
         },
         "62yD1JVWHNG854ZauR5aBR": {
@@ -504,6 +624,18 @@
             "times_played": 2,
             "track_length": NaN
         },
+        "7ycjG4nm0p2i52Y4VzAIIF": {
+            "name": "SUR LE PONT d'AVIGNON (Reparation #1)",
+            "seconds_listened": 307.7331039905548,
+            "first_listened": 1768411920.512678,
+            "last_listened": 1768520816.316936,
+            "artist": "Mach-Hommy",
+            "album": "#RICHAXXHAITIAN",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2,
+            "track_length": NaN
+        },
         "4L9f5OaFKcRMIX7Lmn1XxH": {
             "name": "Adoration of the Magi (feat. Crystal \"R\u00f8v\u00e9l\" Torres)",
             "seconds_listened": 306.27262783050537,
@@ -515,6 +647,30 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "6UqF5GCsyPM69p7faDKmsX": {
+            "name": "Crooked Stick (feat. Ghais Guevera and Alfred.)",
+            "seconds_listened": 303.0253312587738,
+            "first_listened": 1768427075.686895,
+            "last_listened": 1768517011.512772,
+            "artist": "McKinley Dixon",
+            "album": "Magic, Alive!",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2,
+            "track_length": NaN
+        },
+        "1ZzSRXy86bhxjqwNjSZnko": {
+            "name": "Exmilitary",
+            "seconds_listened": 301.7566089630127,
+            "first_listened": 1768510218.41518,
+            "last_listened": 1768510520.171789,
+            "artist": "JPEGMAFIA",
+            "album": "I LAY DOWN MY LIFE FOR YOU",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 301.48
         },
         "14Q7Qja4PJwjMsKdBZcnww": {
             "name": "Sunshine (feat. Foushe\u00e9)",
@@ -540,18 +696,6 @@
             "times_played": 5,
             "track_length": NaN
         },
-        "7aZqkLRsigNznFJa2sCuT1": {
-            "name": "Cripple (feat. Elena Pinderhughes)",
-            "seconds_listened": 292.13847398757935,
-            "first_listened": 1768418979.111077,
-            "last_listened": 1768419271.249551,
-            "artist": "Lupe Fiasco",
-            "album": "DROGAS WAVE",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
         "11aFVmFy8903RwDx4ohQiq": {
             "name": "Be (Intro)",
             "seconds_listened": 289.6661567687988,
@@ -564,6 +708,18 @@
             "times_played": 2,
             "track_length": NaN
         },
+        "2g8vK3m0npTrzsADQAnbVO": {
+            "name": "The Sign (feat. Pase Rock)",
+            "seconds_listened": 289.19319701194763,
+            "first_listened": 1768516030.702282,
+            "last_listened": 1768516319.895479,
+            "artist": "Nujabes",
+            "album": "Modal Soul",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 289.8
+        },
         "1SKtsG3EsJw75hNMRrCgLm": {
             "name": "No. 1 Headband",
             "seconds_listened": 288.09405493736267,
@@ -574,18 +730,6 @@
             "genre": null,
             "times_skipped": 0,
             "times_played": 3,
-            "track_length": NaN
-        },
-        "0orVpwtWOKLJ7ahceb78ar": {
-            "name": "All the Loved Ones (What Would We Do???) (feat. ICECOLDBISHOP and Pink Siifu)",
-            "seconds_listened": 286.11344289779663,
-            "first_listened": 1768417466.513791,
-            "last_listened": 1768417752.627234,
-            "artist": "McKinley Dixon",
-            "album": "Magic, Alive!",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
             "track_length": NaN
         },
         "1gpA1uL2BAY9iWDkNcOPDl": {
@@ -600,6 +744,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "6cJ5RPKucbS6VQEbT05z7q": {
+            "name": "Violas and Lupitas",
+            "seconds_listened": 284.90891885757446,
+            "first_listened": 1768426284.517191,
+            "last_listened": 1768516861.281524,
+            "artist": "Danger Mouse",
+            "album": "Cheat Codes",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 2,
+            "track_length": NaN
+        },
         "2kn0fLwt9QRorHuGdmk6ze": {
             "name": "No One Noticed (Extended Spanish)",
             "seconds_listened": 284.5942049026489,
@@ -610,6 +766,18 @@
             "genre": null,
             "times_skipped": 0,
             "times_played": 1,
+            "track_length": NaN
+        },
+        "06nhoOF0GViBt0LUWyCTNA": {
+            "name": "Run, Run, Run Pt. II",
+            "seconds_listened": 284.23577976226807,
+            "first_listened": 1768395531.914196,
+            "last_listened": 1768520661.964351,
+            "artist": "McKinley Dixon",
+            "album": "Magic, Alive!",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 3,
             "track_length": NaN
         },
         "1uPCr8mi8pzL9NLRrJ3XPP": {
@@ -672,6 +840,18 @@
             "times_played": 5,
             "track_length": NaN
         },
+        "3yKLskgaU2py5ET4OBDQmg": {
+            "name": "Highs 2 Lows (feat. Cise Starr from CYNE)",
+            "seconds_listened": 278.85332798957825,
+            "first_listened": 1768518667.61433,
+            "last_listened": 1768518946.467658,
+            "artist": "Nujabes",
+            "album": "Metaphorical Music",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 277.96
+        },
         "2wJ1eOCIBwoQiN7xQtrTAY": {
             "name": "GROWING UP IS _____",
             "seconds_listened": 275.6623229980469,
@@ -732,6 +912,30 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "0ERnYArznxdTBEIj1VSta8": {
+            "name": "man i is",
+            "seconds_listened": 268.76153898239136,
+            "first_listened": 1768518398.849263,
+            "last_listened": 1768518667.610802,
+            "artist": "Logic",
+            "album": "No Pressure",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 269.231
+        },
+        "49mu0ewiqzCYPGY3IEtNad": {
+            "name": "Just Might Be OK (feat. Gemini)",
+            "seconds_listened": 265.2680242061615,
+            "first_listened": 1768522486.023301,
+            "last_listened": 1768522751.291325,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's Food & Liquor",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 264.346
+        },
         "2FRnf9qhLbvw8fu4IBXx78": {
             "name": "Last Christmas",
             "seconds_listened": 263.44322896003723,
@@ -779,6 +983,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "1SsbAUqPSt20PhHAuVSDNu": {
+            "name": "Stars (feat. Yasiin Bey)",
+            "seconds_listened": 258.21879482269287,
+            "first_listened": 1768522227.803512,
+            "last_listened": 1768522486.022307,
+            "artist": "JID",
+            "album": "The Forever Story (Extended Version)",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 258.243
         },
         "0vbAosWswEidRk9OIgcje4": {
             "name": "My Way - From \"Sing\" Original Motion Picture Soundtrack",
@@ -863,6 +1079,18 @@
             "times_skipped": 1,
             "times_played": 17,
             "track_length": NaN
+        },
+        "4ytRdqHgKAVxtVsjaC2ZZN": {
+            "name": "He Say She Say (feat. Gemini & Sarah Green)",
+            "seconds_listened": 253.08327388763428,
+            "first_listened": 1768515293.011717,
+            "last_listened": 1768515546.094991,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's Food & Liquor",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 252.253
         },
         "2DGMORz6TjhKgCYM7quaZh": {
             "name": "Gold Watch",
@@ -960,18 +1188,6 @@
             "times_played": 1,
             "track_length": NaN
         },
-        "20SWnAlDGcswjHSKIrwDb8": {
-            "name": "This Man",
-            "seconds_listened": 243.4070188999176,
-            "first_listened": 1768414967.918993,
-            "last_listened": 1768415211.326012,
-            "artist": "Common",
-            "album": "The Auditorium Vol. 1",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
         "6kp9czhrGZrP0hr9Y6opEr": {
             "name": "Soren",
             "seconds_listened": 242.9971640110016,
@@ -983,6 +1199,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "2FZ4Ac2OfaZWdv1BKibjVR": {
+            "name": "Real (feat. Sarah Green)",
+            "seconds_listened": 241.60539317131042,
+            "first_listened": 1768508930.362696,
+            "last_listened": 1768509171.968089,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's Food & Liquor",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 241.466
         },
         "2T28tl7T9TR4qQqFGTHL1c": {
             "name": "COPY COLD",
@@ -1068,6 +1296,30 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "41Z9lE5UD4SW09lpHiY358": {
+            "name": "High Note (feat. Luv Moore)",
+            "seconds_listened": 236.84937691688538,
+            "first_listened": 1768518161.999886,
+            "last_listened": 1768518398.849263,
+            "artist": "Lupe Fiasco",
+            "album": "Samurai DX",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 235.432
+        },
+        "5GO4rpfnM2lghVqEulTJUf": {
+            "name": "They Say",
+            "seconds_listened": 236.65672898292542,
+            "first_listened": 1768521646.261634,
+            "last_listened": 1768521882.918363,
+            "artist": "Common",
+            "album": "Be",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 237.04
+        },
         "1p65J6pUtctKgmftkWkMRI": {
             "name": "You and Your Friends",
             "seconds_listened": 236.48003506660461,
@@ -1091,6 +1343,18 @@
             "times_skipped": 2,
             "times_played": 2,
             "track_length": NaN
+        },
+        "7JjIWXd0RopJ8wSMTIsfZr": {
+            "name": "Sunshine",
+            "seconds_listened": 235.9199562072754,
+            "first_listened": 1768520237.711022,
+            "last_listened": 1768520473.630978,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's Food & Liquor",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 235.52
         },
         "1KOqY0QTSadQFRgbNw1sLh": {
             "name": "Never Catch Me",
@@ -1140,6 +1404,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "3omD6il8jLow88uuWN28pW": {
+            "name": "open waters",
+            "seconds_listened": 232.82886695861816,
+            "first_listened": 1768525224.428286,
+            "last_listened": 1768525457.257153,
+            "artist": "MAVI",
+            "album": "shadowbox",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 232.868
+        },
         "4k6Uh1HXdhtusDW5y8Gbvy": {
             "name": "Bad Habit",
             "seconds_listened": 231.93961596488953,
@@ -1164,6 +1440,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "2G6kgs4EwNlD6ryujXV10b": {
+            "name": "La Noche",
+            "seconds_listened": 228.652850151062,
+            "first_listened": 1768509171.97326,
+            "last_listened": 1768509400.62611,
+            "artist": "Navy Blue",
+            "album": "Memoirs In Armour",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 227.139
+        },
         "09mEdoA6zrmBPgTEN5qXmN": {
             "name": "Call Out My Name",
             "seconds_listened": 228.25310802459717,
@@ -1187,6 +1475,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "46Lx5epWOQBA3J86ovnxmV": {
+            "name": "Workin Out",
+            "seconds_listened": 227.55913996696472,
+            "first_listened": 1768520010.150878,
+            "last_listened": 1768520237.710018,
+            "artist": "JID",
+            "album": "DiCaprio 2",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 226.858
         },
         "5h4kIkvVup00nDQdGITJdv": {
             "name": "what was the last thing u said",
@@ -1223,6 +1523,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "4vheUbZGsFWPpbJrir4Ocw": {
+            "name": "The Cool",
+            "seconds_listened": 226.63776803016663,
+            "first_listened": 1768517326.945838,
+            "last_listened": 1768517553.583606,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's Food & Liquor",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 226.653
         },
         "6fsXXu6Qh1U62LBo8I5GP6": {
             "name": "Boy You Should Know!",
@@ -1295,6 +1607,30 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "6ZGoFntcQUWTPGGQPQmecY": {
+            "name": "Kody Blu 31",
+            "seconds_listened": 224.31100606918335,
+            "first_listened": 1768515068.700711,
+            "last_listened": 1768515293.011717,
+            "artist": "JID",
+            "album": "The Forever Story (Extended Version)",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 224.629
+        },
+        "1VSnAypC094ySYAVR8DdzJ": {
+            "name": "KIOSK",
+            "seconds_listened": 223.67652297019958,
+            "first_listened": 1768511061.261151,
+            "last_listened": 1768511284.937674,
+            "artist": "Lupe Fiasco",
+            "album": "DRILL MUSIC IN ZION",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 222.466
         },
         "4ETQzZdnRJwaoFIPQy3GJv": {
             "name": "Boyish",
@@ -1536,6 +1872,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "43pWChQ7AOab9wlSGy0dN6": {
+            "name": "F.I.L.O. (feat. Shing02)",
+            "seconds_listened": 212.43324899673462,
+            "first_listened": 1768522856.57145,
+            "last_listened": 1768523069.004699,
+            "artist": "Nujabes",
+            "album": "Metaphorical Music",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 211.226
+        },
         "7aNW0M1R6eUnoXKpN2HncV": {
             "name": "HEADY",
             "seconds_listened": 212.05351996421814,
@@ -1644,18 +1992,6 @@
             "times_played": 1,
             "track_length": NaN
         },
-        "7fwdaT4sij27QUYGfHShDh": {
-            "name": "SONJE",
-            "seconds_listened": 208.84543800354004,
-            "first_listened": 1768413034.816083,
-            "last_listened": 1768413243.661521,
-            "artist": "Mach-Hommy",
-            "album": "#RICHAXXHAITIAN",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
         "0uMZbmAAgOhdMrv25iPEH6": {
             "name": "Goth",
             "seconds_listened": 208.74430394172668,
@@ -1704,6 +2040,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "4M2t7bP4Mq87mGMn0PObUX": {
+            "name": "untitled 06 | 06.30.2014.",
+            "seconds_listened": 207.87339305877686,
+            "first_listened": 1768523069.004699,
+            "last_listened": 1768523276.878092,
+            "artist": "Kendrick Lamar",
+            "album": "untitled unmastered.",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 208.013
+        },
         "7K8vHXoxqEi942N0hFtHpR": {
             "name": "Murder Czn (feat. Westside Gunn)",
             "seconds_listened": 207.77592492103577,
@@ -1727,6 +2075,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "0IPG2jOqjMz3PAIeh4NhXW": {
+            "name": "OutTheWay (feat. Rae Khalil)",
+            "seconds_listened": 207.66769814491272,
+            "first_listened": 1768519429.510866,
+            "last_listened": 1768519637.178564,
+            "artist": "NxWorries",
+            "album": "Why Lawd?",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 206.383
         },
         "4CBGocqDmAjJLcA9sA9EXF": {
             "name": "Cary Me Back",
@@ -1800,6 +2160,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "3UZH1lr5vx7S19ilecUtwj": {
+            "name": "Gotta Eat",
+            "seconds_listened": 204.8590099811554,
+            "first_listened": 1768524695.362948,
+            "last_listened": 1768524900.222968,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's The Cool",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 204.173
+        },
         "4MbUcaX58NkUmKXe6FuBaV": {
             "name": "Blessing It -remix (feat. Substantial & Pase Rock from Five Deez)",
             "seconds_listened": 204.30311489105225,
@@ -1819,18 +2191,6 @@
             "last_listened": 1768347132.258419,
             "artist": "beabadoobee",
             "album": "A Night To Remember",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
-        "70YS0OCo66lmeeOGBeh3eH": {
-            "name": "Live! from the Kitchen Table",
-            "seconds_listened": 203.13026905059814,
-            "first_listened": 1768409099.311329,
-            "last_listened": 1768409302.441598,
-            "artist": "McKinley Dixon",
-            "album": "Beloved! Paradise! Jazz!?",
             "genre": null,
             "times_skipped": 0,
             "times_played": 1,
@@ -2064,6 +2424,18 @@
             "times_played": 2,
             "track_length": NaN
         },
+        "5FX89IUKm9QJT9ymrmyK4k": {
+            "name": "Free Lunch",
+            "seconds_listened": 192.35547399520874,
+            "first_listened": 1768517134.590364,
+            "last_listened": 1768517326.945838,
+            "artist": "Isaiah Rashad",
+            "album": "The Sun's Tirade",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 192.029
+        },
         "14tud1FLjpHMYHpD2c7NbO": {
             "name": "i'll die anyway.",
             "seconds_listened": 191.9504120349884,
@@ -2111,6 +2483,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "70NeOmAaCTI2HnIVyAH4Qm": {
+            "name": "head.rap (ft. Madison McFerrin, Ogi, Jordan Ward)",
+            "seconds_listened": 190.34924793243408,
+            "first_listened": 1768510667.704776,
+            "last_listened": 1768510858.054024,
+            "artist": "Saba",
+            "album": "From The Private Collection of Saba and No ID",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 190.055
         },
         "4vmuB7LyvN903hwjWBMvwM": {
             "name": "Chrome",
@@ -2316,18 +2700,6 @@
             "times_played": 1,
             "track_length": NaN
         },
-        "2PXJysZgociSlKvZ1Y4NDw": {
-            "name": "LON LON",
-            "seconds_listened": 182.29671502113342,
-            "first_listened": 1768415348.023581,
-            "last_listened": 1768415530.320296,
-            "artist": "Mach-Hommy",
-            "album": "#RICHAXXHAITIAN",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
         "1yfymqHHUZeDisKm7L2X2d": {
             "name": "PAPERCUTS",
             "seconds_listened": 182.17145895957947,
@@ -2448,6 +2820,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "0AFI1ey6NJ6HmUnskmUABD": {
+            "name": "The Emperor's Soundtrack",
+            "seconds_listened": 176.15583896636963,
+            "first_listened": 1768519253.355027,
+            "last_listened": 1768519429.510866,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's Food & Liquor",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 176.56
+        },
         "2fsQGg0FeTVHdaIkKIxSFF": {
             "name": "Warm Honey",
             "seconds_listened": 175.65226984024048,
@@ -2519,6 +2903,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "4PvR0sNCLMTzKHzVOAVNbO": {
+            "name": "KOMPRESSOR",
+            "seconds_listened": 174.03783988952637,
+            "first_listened": 1768524900.222968,
+            "last_listened": 1768525074.260808,
+            "artist": "Action Bronson",
+            "album": "JOHANN SEBASTIAN BACHLAVA THE DOCTOR",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 173.106
         },
         "1Q87uEmqt41w3YNWNjk4vz": {
             "name": "my own way",
@@ -2592,6 +2988,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "2TkeAy3hO09A6gJsByAiF1": {
+            "name": "F.F.O.L. (feat. Teller Bank$)",
+            "seconds_listened": 171.87284898757935,
+            "first_listened": 1768515546.094991,
+            "last_listened": 1768515717.96784,
+            "artist": "McKinley Dixon",
+            "album": "Magic, Alive!",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 170.896
+        },
         "7FGq80cy8juXBCD2nrqdWU": {
             "name": "Eastside (with Halsey & Khalid)",
             "seconds_listened": 171.30431294441223,
@@ -2611,18 +3019,6 @@
             "last_listened": 1768504408.855534,
             "artist": "Sir Chloe",
             "album": "Party Favors",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
-        "4blsfvopYv1ZbgImTl3i8D": {
-            "name": "The Story so Far",
-            "seconds_listened": 170.28938913345337,
-            "first_listened": 1768425717.643786,
-            "last_listened": 1768425887.933175,
-            "artist": "McKinley Dixon",
-            "album": "Beloved! Paradise! Jazz!?",
             "genre": null,
             "times_skipped": 0,
             "times_played": 1,
@@ -2760,6 +3156,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "5hRCREMC3CwLXHKCHtwP3U": {
+            "name": "Tyler, Forever",
+            "seconds_listened": 165.41529202461243,
+            "first_listened": 1768525457.257153,
+            "last_listened": 1768525640.936454,
+            "artist": "McKinley Dixon",
+            "album": "Beloved! Paradise! Jazz!?",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2,
+            "track_length": 182.914
+        },
         "25wMLedSFts8Wiwvo67Z3y": {
             "name": "SHADOW REALM",
             "seconds_listened": 164.92227292060852,
@@ -2820,6 +3228,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "0zCwO6xv3FGekF2OymdDTa": {
+            "name": "Red Roses",
+            "seconds_listened": 163.79597306251526,
+            "first_listened": 1768514904.903233,
+            "last_listened": 1768515068.699206,
+            "artist": "Navy Blue",
+            "album": "Memoirs In Armour",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 163.231
+        },
         "40WWDaK7arn7ilmufbHmdo": {
             "name": "Treacherous Doctor",
             "seconds_listened": 163.67203402519226,
@@ -2831,6 +3251,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "2GooPMd4ZjE79PJX1IRgRP": {
+            "name": "JUMPIN IN",
+            "seconds_listened": 163.66329503059387,
+            "first_listened": 1768519637.179718,
+            "last_listened": 1768519800.843013,
+            "artist": "Kenny Mason",
+            "album": "9",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 163.88
         },
         "0U3D7TYYB6sXCACuba9ICk": {
             "name": "Lemon/Ginger",
@@ -2856,6 +3288,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "1VDges69FvIGaTDsdxkcrM": {
+            "name": "Identical Deaths",
+            "seconds_listened": 163.13762712478638,
+            "first_listened": 1768514741.765606,
+            "last_listened": 1768514904.903233,
+            "artist": "Danger Mouse",
+            "album": "Cheat Codes",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 161.773
+        },
         "4Gqh7XRuYd4TtFFqooSyrv": {
             "name": "Real People",
             "seconds_listened": 162.9532651901245,
@@ -2868,6 +3312,30 @@
             "times_played": 2,
             "track_length": NaN
         },
+        "0BqIignaPhhywEKYnQshMl": {
+            "name": "Magic, Alive!",
+            "seconds_listened": 162.59986090660095,
+            "first_listened": 1768521882.922368,
+            "last_listened": 1768522045.522229,
+            "artist": "McKinley Dixon",
+            "album": "Magic, Alive!",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 161.553
+        },
+        "4fYZdnLLqwFYizo8ef1Pqu": {
+            "name": "tether",
+            "seconds_listened": 162.19631099700928,
+            "first_listened": 1768517999.803575,
+            "last_listened": 1768518161.999886,
+            "artist": "MAVI",
+            "album": "shadowbox",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 161.695
+        },
         "4JvTUper6kKrGUuOPsdhI2": {
             "name": "THE SHINING",
             "seconds_listened": 161.61411309242249,
@@ -2875,18 +3343,6 @@
             "last_listened": 1768430595.426558,
             "artist": "Vince Staples",
             "album": "Vince Staples",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
-        "0WfsDFQY3t0nDyWF89QKfe": {
-            "name": "latch",
-            "seconds_listened": 160.82241201400757,
-            "first_listened": 1768408489.88792,
-            "last_listened": 1768408650.710332,
-            "artist": "MAVI",
-            "album": "shadowbox",
             "genre": null,
             "times_skipped": 0,
             "times_played": 1,
@@ -2988,6 +3444,30 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "0NLMlugpsr2jljEHAqMbX9": {
+            "name": "Dedicated to Tar Feather",
+            "seconds_listened": 157.47221398353577,
+            "first_listened": 1768519095.881816,
+            "last_listened": 1768519253.35403,
+            "artist": "McKinley Dixon",
+            "album": "Beloved! Paradise! Jazz!?",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 156.688
+        },
+        "5mcGLeUeelESgoTAj4LbnL": {
+            "name": "SheUsed",
+            "seconds_listened": 157.32070112228394,
+            "first_listened": 1768515873.380579,
+            "last_listened": 1768516030.70128,
+            "artist": "NxWorries",
+            "album": "Why Lawd?",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 156.803
+        },
         "33bsk1Zn8QAAJnE7erlCtP": {
             "name": "Big AL (feat. Rome Streetz)",
             "seconds_listened": 155.9218430519104,
@@ -3023,6 +3503,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "7Dr8M0bH0BfSbgoxovizZZ": {
+            "name": "20,000 leagues",
+            "seconds_listened": 155.41173911094666,
+            "first_listened": 1768515717.96784,
+            "last_listened": 1768515873.379579,
+            "artist": "MAVI",
+            "album": "shadowbox",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 154.431
         },
         "5hjhaH0vwtpftiLtF3veZp": {
             "name": "Ophelia",
@@ -3072,30 +3564,6 @@
             "times_played": 1,
             "track_length": NaN
         },
-        "7ycjG4nm0p2i52Y4VzAIIF": {
-            "name": "SUR LE PONT d'AVIGNON (Reparation #1)",
-            "seconds_listened": 153.38090300559998,
-            "first_listened": 1768411920.512678,
-            "last_listened": 1768412073.894612,
-            "artist": "Mach-Hommy",
-            "album": "#RICHAXXHAITIAN",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
-        "6UqF5GCsyPM69p7faDKmsX": {
-            "name": "Crooked Stick (feat. Ghais Guevera and Alfred.)",
-            "seconds_listened": 152.79408311843872,
-            "first_listened": 1768427075.686895,
-            "last_listened": 1768427228.480978,
-            "artist": "McKinley Dixon",
-            "album": "Magic, Alive!",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
         "7zwn1eykZtZ5LODrf7c0tS": {
             "name": "You Get Me So High",
             "seconds_listened": 152.71291208267212,
@@ -3132,6 +3600,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "119UQcgxgjEV5Uqf1YHmJW": {
+            "name": "Close to Famous",
+            "seconds_listened": 149.41316199302673,
+            "first_listened": 1768518946.467658,
+            "last_listened": 1768519095.88082,
+            "artist": "Danger Mouse",
+            "album": "Cheat Codes",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 148.68
+        },
         "7yBEKiv1LmO7GM4rOejhcW": {
             "name": "SPIT IN MY FACE!",
             "seconds_listened": 148.90068697929382,
@@ -3144,6 +3624,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "3T3QPXUmSMDilX7gg5qQ3o": {
+            "name": "Take Heed",
+            "seconds_listened": 147.841233253479,
+            "first_listened": 1768525074.261808,
+            "last_listened": 1768525224.428286,
+            "artist": "Navy Blue",
+            "album": "Memoirs In Armour",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 2,
+            "track_length": 149.875
+        },
         "2y4ApBwholErnCVyuvF3NI": {
             "name": "ANTONOMASIA",
             "seconds_listened": 147.75290417671204,
@@ -3155,6 +3647,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "6unA5DxZA8pWre14AAH94k": {
+            "name": "Slow",
+            "seconds_listened": 147.53099012374878,
+            "first_listened": 1768510520.172787,
+            "last_listened": 1768510667.703777,
+            "artist": "Navy Blue",
+            "album": "Memoirs In Armour",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 146.331
         },
         "1dJ1TP6gX47dJaV0NDAyCC": {
             "name": "testimony",
@@ -3192,18 +3696,6 @@
             "times_played": 1,
             "track_length": NaN
         },
-        "6cJ5RPKucbS6VQEbT05z7q": {
-            "name": "Violas and Lupitas",
-            "seconds_listened": 142.2327480316162,
-            "first_listened": 1768426284.517191,
-            "last_listened": 1768426426.749939,
-            "artist": "Danger Mouse",
-            "album": "Cheat Codes",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": NaN
-        },
         "1eVwRwTB6o7tC7bNGDj9av": {
             "name": "Run em Down - Dro Kenji Edit",
             "seconds_listened": 142.14528608322144,
@@ -3227,6 +3719,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "6zKtqKxwutmhig1FomBAyR": {
+            "name": "Low Threshold",
+            "seconds_listened": 140.94341707229614,
+            "first_listened": 1768517553.583606,
+            "last_listened": 1768517694.527023,
+            "artist": "Navy Blue",
+            "album": "Memoirs In Armour",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 139.963
         },
         "3pssREoUYhs7NTPF3iv6wL": {
             "name": "SELL ME SICKNESS SELL ME HEALTH (EAZY T)",
@@ -3263,6 +3767,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "15hqLSNhvIHABHaPSI0LRr": {
+            "name": "Say The Word",
+            "seconds_listened": 139.56584191322327,
+            "first_listened": 1768520976.334507,
+            "last_listened": 1768521115.900349,
+            "artist": "Navy Blue",
+            "album": "Memoirs In Armour",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 139.33
         },
         "0g0xi4UvTRtDE5NVGAd9Cy": {
             "name": "Bloodline Freestyle (2022 Demo)",
@@ -3384,6 +3900,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "7kmMRYiqqafQfWbkGgcHIM": {
+            "name": "Cheat Codes",
+            "seconds_listened": 134.98248887062073,
+            "first_listened": 1768517694.528027,
+            "last_listened": 1768517829.510516,
+            "artist": "Danger Mouse",
+            "album": "Cheat Codes",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 134.626
+        },
         "3S4dS34keJs4DJrvPLLoEw": {
             "name": "Breaking Point",
             "seconds_listened": 134.01090693473816,
@@ -3419,6 +3947,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "35cHvlGyHrcCslMJrNP363": {
+            "name": "Sometimes",
+            "seconds_listened": 131.16804003715515,
+            "first_listened": 1768509795.697814,
+            "last_listened": 1768509926.865854,
+            "artist": "Danger Mouse",
+            "album": "Cheat Codes",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 130.373
         },
         "0hLYU06I6ppGIhqiJ4uZom": {
             "name": "Fly god manners",
@@ -3540,6 +4080,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "6YSMyq5kO7R1sgpZ3EnGVW": {
+            "name": "Silent Film",
+            "seconds_listened": 123.07532000541687,
+            "first_listened": 1768517011.514035,
+            "last_listened": 1768517134.589355,
+            "artist": "MAVI",
+            "album": "The Pilot",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 121.518
+        },
         "6fg1HwRv53aNH6HNZspBb8": {
             "name": "HOW TO KILL A MAN",
             "seconds_listened": 122.970449924469,
@@ -3636,6 +4188,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "4CkgIRRsKnVXscMtw5XGi1": {
+            "name": "Kick, Push II",
+            "seconds_listened": 111.18508911132812,
+            "first_listened": 1768525640.937454,
+            "last_listened": 1768525752.122543,
+            "artist": "Lupe Fiasco",
+            "album": "Lupe Fiasco's Food & Liquor",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 1,
+            "track_length": 251.693
+        },
         "6Grbm8wC1dfrUxip7x3sC7": {
             "name": "Gaslight feat. Travis Barker",
             "seconds_listened": 110.42085909843445,
@@ -3660,6 +4224,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "4k8AO5jk774WA6mg9YCxSG": {
+            "name": "Distractions",
+            "seconds_listened": 108.81482982635498,
+            "first_listened": 1768509400.62611,
+            "last_listened": 1768509509.44094,
+            "artist": "NxWorries",
+            "album": "Why Lawd?",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 109.051
+        },
         "7rNun2AyLu4u4rQpRt0iS9": {
             "name": "Westcoast Collective",
             "seconds_listened": 108.08716297149658,
@@ -3683,6 +4259,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "0ON9rtWIAu42B02kHq93tM": {
+            "name": "Basis",
+            "seconds_listened": 105.27911400794983,
+            "first_listened": 1768522751.291325,
+            "last_listened": 1768522856.570439,
+            "artist": "Navy Blue",
+            "album": "Memoirs In Armour",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 105.004
         },
         "4rkChovyQKSVPBv87qQnIZ": {
             "name": "Prospect Park West",
@@ -3720,18 +4308,6 @@
             "times_played": 1,
             "track_length": NaN
         },
-        "06nhoOF0GViBt0LUWyCTNA": {
-            "name": "Run, Run, Run Pt. II",
-            "seconds_listened": 95.90240693092346,
-            "first_listened": 1768395531.914196,
-            "last_listened": 1768395635.772385,
-            "artist": "McKinley Dixon",
-            "album": "Magic, Alive!",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 2,
-            "track_length": NaN
-        },
         "7i6p1kY8DrZkDFoWi5vxu4": {
             "name": "86Sentra",
             "seconds_listened": 95.88775396347046,
@@ -3755,6 +4331,18 @@
             "times_skipped": 0,
             "times_played": 1,
             "track_length": NaN
+        },
+        "51Rs7xpi3HxrqvN1bI0i5w": {
+            "name": "The Stellar Ray Theory",
+            "seconds_listened": 86.22217106819153,
+            "first_listened": 1768508663.926498,
+            "last_listened": 1768508750.148669,
+            "artist": "Mach-Hommy",
+            "album": "Pray For Haiti",
+            "genre": null,
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 194.652
         },
         "6AMrP50djyiL62OiTQv8Qu": {
             "name": "SUN STORY",
@@ -3888,6 +4476,18 @@
             "times_played": 1,
             "track_length": NaN
         },
+        "3EWaU5exMayFzQMkIfTX7w": {
+            "name": "either on or off the drugs",
+            "seconds_listened": 55.11361908912659,
+            "first_listened": 1768508875.248077,
+            "last_listened": 1768508930.361696,
+            "artist": "JPEGMAFIA",
+            "album": "I LAY DOWN MY LIFE FOR YOU",
+            "genre": null,
+            "times_skipped": 1,
+            "times_played": 1,
+            "track_length": 140.593
+        },
         "5qMq8ITRVuTwqd2pDL0gff": {
             "name": "<maybe> it's my fault",
             "seconds_listened": 39.998172998428345,
@@ -3911,18 +4511,6 @@
             "times_skipped": 1,
             "times_played": 1,
             "track_length": NaN
-        },
-        "51Rs7xpi3HxrqvN1bI0i5w": {
-            "name": "The Stellar Ray Theory",
-            "seconds_listened": 20.853540182113647,
-            "first_listened": 1768508663.926498,
-            "last_listened": 1768508684.780038,
-            "artist": "Mach-Hommy",
-            "album": "Pray For Haiti",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1,
-            "track_length": 194.652
         },
         "7mEPuj0XW6eK14Unu6IUc1": {
             "name": "Eclipse (feat. Substantial)",
@@ -4032,13 +4620,13 @@
             "times_played": 1,
             "track_length": 149.038
         },
-        "6TcxxINfeaBEQ35sHMldTD": {
-            "name": "Dreams Tonite",
+        "6zSLy6mrBrMlzaIn9UDw6o": {
+            "name": "SIN MIEDO",
             "seconds_listened": 0.0,
-            "first_listened": 1768276127.310554,
-            "last_listened": 1768276127.310554,
-            "artist": "Alvvays",
-            "album": "Antisocialites",
+            "first_listened": 1768416384.901186,
+            "last_listened": 1768416384.901186,
+            "artist": "JPEGMAFIA",
+            "album": "I LAY DOWN MY LIFE FOR YOU",
             "genre": null,
             "times_skipped": 0,
             "times_played": 1,
@@ -4056,13 +4644,13 @@
             "times_played": 1,
             "track_length": NaN
         },
-        "6zSLy6mrBrMlzaIn9UDw6o": {
-            "name": "SIN MIEDO",
+        "6TcxxINfeaBEQ35sHMldTD": {
+            "name": "Dreams Tonite",
             "seconds_listened": 0.0,
-            "first_listened": 1768416384.901186,
-            "last_listened": 1768416384.901186,
-            "artist": "JPEGMAFIA",
-            "album": "I LAY DOWN MY LIFE FOR YOU",
+            "first_listened": 1768276127.310554,
+            "last_listened": 1768276127.310554,
+            "artist": "Alvvays",
+            "album": "Antisocialites",
             "genre": null,
             "times_skipped": 0,
             "times_played": 1,
@@ -4080,7 +4668,7 @@
             "seconds_listened": 31904.524549484253
         },
         "2026-01-15 00:00:00": {
-            "seconds_listened": 15507.447651147842
+            "seconds_listened": 29261.934413909912
         }
     }
 }

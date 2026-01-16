@@ -130,11 +130,13 @@ def new_track(_data, current_song_id,song):
                         "first_listened" : current_timestamp(),
                         "last_listened"  : current_timestamp(),
                         "artist" : song.get("artists")[0].get("name"),
+                        "artist_id" : song.get("artists")[0].get("id"),
                         "album" : song.get("album", {}).get("name", "Unknown"),
                         "genre" : None,
                         "times_skipped" : 0,
                         "times_played"  : 1,
                         "track_length"  : song.get("duration_ms") / 1000
+
                     }
 CURRENT_SONG_URL = "https://api.spotify.com/v1/me/player/currently-playing"
 
@@ -207,13 +209,13 @@ def spotify_loop():
             print(f"--> Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
             term_helper()
             #myemail.send_email(myemail.MY_EMAIL,"Autosave",f"Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
-
+        """
         if current_timestamp() - last_notif_time > 3600: #1 hour
             last_notif_time = current_timestamp()
             myemail.send_email(myemail.MY_EMAIL,
                                 "Daily Summary",
                                 f"You spent {_data["dates"][current_day]["seconds_listened"]/60} minutes listening to Spotify on {current_day} (or {_data["dates"][current_day]["seconds_listened"]/60/60} hours)")
-
+        """
 
 
         #daily notifications , will send an email summary of previous day at midnight
@@ -256,10 +258,10 @@ def spotify_loop():
 
         if r.status_code == 200 and r.content:
 
-            """" debug
+            #"""" debug
             with open("recent_req.json", "w") as f:
                 json.dump(json.loads(r.content), f, indent=4)
-            """
+           # """
             response = json.loads(r.content)
             song = json.loads(r.content).get("item")
 

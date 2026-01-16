@@ -4,6 +4,13 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+-> set recipient email command
+-> genre tracker
+-> notification data parsing:
+    top 5 songs
+    top 5 artists
+    top genre
+
 commit #13:
     stopify loop is on a thread now
     command line access;
@@ -13,6 +20,7 @@ commit #13:
         sort
         save
         push -> sends notification
+
 
 commit #12: hourly notifications
 
