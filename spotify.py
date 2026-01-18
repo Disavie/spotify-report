@@ -117,6 +117,13 @@ def update_data(data, current_song_id):
     data["tracks"][current_song_id]["last_listened"] = current_timestamp()
 
 
+    #track data today
+    last_lis = data["today"][current_song_id].get("last_listened")
+    new_secs = (current_timestamp() - last_lis)
+    data["today"][current_song_id]["seconds_listened"] += new_secs
+    data["today"][current_song_id]["last_listened"] = current_timestamp()
+
+
     #day's data
     data["dates"][get_midnight(current_timestamp())]["seconds_listened"] += new_secs
     #print(f'{data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
@@ -136,9 +143,9 @@ def get_genres(artist_id):
     return []
 
 
-def new_track(_data, current_song_id,song):
+def new_track(_data, current_song_id,song, path : str = "tracks"):
             #first listen add basic info to data
-                    _data["tracks"][current_song_id] = {
+                    _data[path][current_song_id] = {
                         "name" : song.get("name"),
                         "seconds_listened" : 0,
                         "first_listened" : current_timestamp(),
@@ -191,7 +198,7 @@ def get_todays_stats():
     today_seconds = x["dates"][get_midnight(current_timestamp())].get("seconds_listened")
     todays_songs  = visualizer.get_top_songs(5)
     ret_s = f"{today_seconds/60} minutes listened or {today_seconds/3600} hours"
-    ret_s += f"\n Today's top songs: {today_seconds}"
+    ret_s += f"\n Today's top songs: {todays_songs}"
     return ret_s
 
 def term_helper():
@@ -219,6 +226,7 @@ def spotify_loop():
     save_please = 1
     current_day = -1
     last_notif_time = current_timestamp()
+    today_date = get_midnight(current_timestamp())
 
     while not stop_event.is_set():
         #autosave
@@ -253,6 +261,11 @@ def spotify_loop():
             _data["dates"][current_day] = {
                 "seconds_listened" : 0
             }
+
+        #if today changes (11:59PM - > 12:00AM) reset _data["today"]
+        #DO NOT MOVE THIS IT NEEDS TO OCCUR AFTER THE NIGHTLY NOTIFICATION IS SENT!!!
+        if today_date != get_midnight(current_timestamp()):
+            _data["today"] = {}
 
         #get current song
         try:
@@ -297,6 +310,8 @@ def spotify_loop():
                         tp = current_timestamp() - time_paused
                         _data["tracks"][current_song_id]["seconds_listened"] -= tp
                         _data["dates"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
+                        _data["today"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
+
 
                     print(f'Unpausing (after {tp} seconds)')
                     term_helper()
@@ -310,6 +325,7 @@ def spotify_loop():
                 if paused and current_song_id != -1:
                     tp = current_timestamp() - time_paused
                     _data["tracks"][current_song_id]["seconds_listened"] -= tp
+                    _data["today"][current_song_id]["seconds_listened"] -= tp
                     _data["dates"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
 
                 #Updates all data about the song
@@ -318,6 +334,7 @@ def spotify_loop():
                 #Perform math to check the song was completed, if not than increase the 'skip count' of the song
                 if current_song_id != -1 and skipped(_data["tracks"][current_song_id],seconds_listened_when_track_begin, duration_s):
                     _data["tracks"][current_song_id]["times_skipped"] += 1
+                    _data["today"][current_song_id]["times_skipped"] +=1
 
 
 
@@ -329,8 +346,14 @@ def spotify_loop():
                 duration_s = song.get("duration_ms") / 1000
                 if current_song_id != -1:
 
+                    #Add song to todays data
+                    if current_song_id not in _data["today"]:
+                        new_track(_data,current_song_id,song,path="today")
+                    else:
+                        pass
+
                     #If this is the first time listening to this song we need to add it
-                    if current_song_id != -1 and current_song_id not in _data["tracks"]:
+                    if current_song_id not in _data["tracks"]:
                         new_track(_data, current_song_id,song)
                     else:
                     #Since we have listened to this song before, increase the amount of times we have listened to it

@@ -66,7 +66,7 @@ def get_top_songs(count: int, key: str = "seconds_listened") -> List[str]:
     with open("data.json") as f:
         data = json.load(f)
 
-    df = pd.DataFrame.from_dict(data["tracks"], orient="index")
+    df = pd.DataFrame.from_dict(data["today"], orient="index")
 
     # Sort descending by key
     if df[key].dtype == object:

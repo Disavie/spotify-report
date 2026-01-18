@@ -11,6 +11,7 @@ commit #15:
             > xxx
         
         added better formatting to midnight notification
+        added a "today" which just tracks current day data
 
 commit #14 : 
     1/17/26

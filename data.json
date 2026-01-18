@@ -1,4 +1,32 @@
 {
+    "today": {
+        "1xLs8Mu1QEVbGCpyHQ2r2U": {
+            "name": "Why",
+            "seconds_listened": 79.47034883499146,
+            "first_listened": 1768697972.54256,
+            "last_listened": 1768698052.012909,
+            "artist": "Dominic Fike",
+            "artist_id": "6USv9qhCn6zfxlBQIYJ9qs",
+            "genre": null,
+            "album": "What Could Possibly Go Wrong",
+            "times_skipped": 1,
+            "times_played": 1,
+            "track_length": 139.906
+        },
+        "4EoE743bWWiZ4ttkdPCNbA": {
+            "name": "Rue",
+            "seconds_listened": 210.22315216064453,
+            "first_listened": 1768698052.012909,
+            "last_listened": 1768698262.237063,
+            "artist": "girl in red",
+            "artist_id": "3uwAm6vQy7kWPS2bciKWx9",
+            "genre": null,
+            "album": "if i could make it go quiet",
+            "times_skipped": 0,
+            "times_played": 1,
+            "track_length": 216.831
+        }
+    },
     "tracks": {
         "6R7FvVrMVK971TVxOU2Ab9": {
             "name": "I Can Hear Music - Demo",
@@ -358,14 +386,18 @@
         },
         "4EoE743bWWiZ4ttkdPCNbA": {
             "name": "Rue",
-            "seconds_listened": 436.0478410720825,
+            "seconds_listened": 639.5243248939514,
             "first_listened": 1768312393.570539,
-            "last_listened": 1768488786.709969,
+            "last_listened": 1768698262.237063,
             "artist": "girl in red",
             "album": "if i could make it go quiet",
-            "genre": null,
+            "genre": [
+                "bedroom pop"
+            ],
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 5,
+            "artist_id": "3uwAm6vQy7kWPS2bciKWx9",
+            "track_length": 216.831
         },
         "4pH8cIlMI9NrTWcDiQbuRe": {
             "name": "Miss You - Sped Up Version",
@@ -461,14 +493,16 @@
         },
         "1xLs8Mu1QEVbGCpyHQ2r2U": {
             "name": "Why",
-            "seconds_listened": 280.4385781288147,
-            "first_listened": 1768328529.077943,
-            "last_listened": 1768488568.915081,
+            "seconds_listened": 120.3644151687622,
+            "first_listened": 1768697924.4174,
+            "last_listened": 1768698052.012909,
             "artist": "Dominic Fike",
+            "artist_id": "6USv9qhCn6zfxlBQIYJ9qs",
+            "genre": [],
             "album": "What Could Possibly Go Wrong",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
+            "times_skipped": 1,
+            "times_played": 4,
+            "track_length": 139.906
         },
         "0hTenOns6LBffrOtLg3rMe": {
             "name": "i can see clearly",
@@ -559,14 +593,16 @@
         },
         "62yD1JVWHNG854ZauR5aBR": {
             "name": "can't get you out of my head",
-            "seconds_listened": 319.94735884666443,
-            "first_listened": 1768330118.995823,
-            "last_listened": 1768488428.776728,
+            "seconds_listened": 3.751918077468872,
+            "first_listened": 1768697860.172322,
+            "last_listened": 1768697864.21582,
             "artist": "JYLPO",
+            "artist_id": "1KeT36km8BYQZD79atBWCe",
+            "genre": [],
             "album": "can't get you out of my head",
-            "genre": null,
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 2,
+            "track_length": 158.629
         },
         "7g1251d41qVR8kq6yz9XXa": {
             "name": "pouring outside",
@@ -8113,7 +8149,7 @@
             "seconds_listened": 38488.97302508354
         },
         "2026-01-17 00:00:00": {
-            "seconds_listened": 9753.092712402344
+            "seconds_listened": 10146.805213689804
         }
     }
 }
