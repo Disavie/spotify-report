@@ -43,6 +43,8 @@ def main():
                 print("KeyError, did you have a typo?")
         elif cmd == "push":
             myemail.send_email(myemail.MY_EMAIL,"Requested Daily Notification", spotify.get_todays_stats())
+        elif cmd.strip() == "push -p":
+            print(f"{spotify.get_todays_stats()}")
         elif cmd == "save":
             if is_running:
                 spotify.safe_save()

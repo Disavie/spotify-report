@@ -4,6 +4,10 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit #16:
+    there is some bug causing? some songs in the "today" to be ~7000 seconds each
+    -> never mind i fixed it!
+
 commit #15:
         search -a -> searches for all data about songs of an artist
             > xxx

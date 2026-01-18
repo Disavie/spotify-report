@@ -136,7 +136,9 @@ def get_genres(artist_id):
     r = requests.get(ARTIST_INFO_URL, headers= {
                     "Authorization": f"Bearer {ACCESS_TOKEN}"
                 }) #Tries the saved token in .env
-
+    #print(f"genre response code: {r.status_code}")
+    #print(f"{r.content}")
+    #term_helper()
     if r.status_code == 200:
         response = json.loads(r.content)
         return response.get("genres")
@@ -188,6 +190,7 @@ def safe_save():
             tp = current_timestamp() - time_paused
             _data["tracks"][current_song_id]["seconds_listened"] -= tp
             _data["dates"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
+            _data["today"][current_song_id]["seconds_listened"] -= tp
 
     print(f"Data was saved at {datetime.datetime.fromtimestamp(current_timestamp())}")
 
@@ -197,8 +200,8 @@ def get_todays_stats():
     x = opendata()
     today_seconds = x["dates"][get_midnight(current_timestamp())].get("seconds_listened")
     todays_songs  = visualizer.get_top_songs(5)
-    ret_s = f"{today_seconds/60} minutes listened or {today_seconds/3600} hours"
-    ret_s += f"\n Today's top songs: {todays_songs}"
+    ret_s = f"{round(today_seconds/60,0)} minutes listened or {round(today_seconds/3600,2)} hours"
+    ret_s += f"\nToday's top songs: {todays_songs}"
     return ret_s
 
 def term_helper():
@@ -376,7 +379,7 @@ def spotify_loop():
                          _data["tracks"][current_song_id]["track_length"] = duration_s
 
                     try:
-                        if _data["tracks"][current_song_id]["genre"] == None:
+                        if not _data["tracks"][current_song_id]["genre"]:
                             _data["tracks"][current_song_id]["genre"] = get_genres(_data["tracks"][current_song_id].get("artist_id"))
                     except KeyError:
                             _data["tracks"][current_song_id]["genre"] = get_genres(_data["tracks"][current_song_id].get("artist_id"))
@@ -401,6 +404,7 @@ def spotify_loop():
         except KeyboardInterrupt:
             safe_save()
             exit()
+    print("performing save!")
     safe_save()
       
 

@@ -46,7 +46,7 @@ def retrieve_info_of_artist(artist) -> None:
         data = json.load(f)
 
     df = pd.DataFrame.from_dict(data["tracks"],orient="index")
-    filtered = df[df["artist"].contains(artist)]
+    filtered = df[df["artist"].str.lower().str.contains(artist)]
 
     with open("result.json", 'w') as f:
         json.dump(filtered.to_dict(orient="index"), f, indent=4)
@@ -56,7 +56,7 @@ def retrieve_info_of_song(song_name) -> None:
         data = json.load(f)
 
     df = pd.DataFrame.from_dict(data["tracks"],orient="index")
-    filtered = df[df["name"].str.lower().contains(song_name)]
+    filtered = df[df["name"].str.lower().str.contains(song_name)]
 
     with open("result.json", 'w') as f:
         json.dump(filtered.to_dict(orient="index"), f, indent=4)
