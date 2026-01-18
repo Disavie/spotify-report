@@ -122,6 +122,20 @@ def update_data(data, current_song_id):
 
     return 0
 
+def get_genres(artist_id):
+    global ACCESS_TOKEN
+    ARTIST_INFO_URL = f"https://api.spotify.com/v1/artists/{artist_id}"
+    r = requests.get(ARTIST_INFO_URL, headers= {
+                    "Authorization": f"Bearer {ACCESS_TOKEN}"
+                }) #Tries the saved token in .env
+
+    print(r.status_code)
+    if r.status_code == 200:
+        response = json.loads(r.content)
+        return response.get("genres")
+    return []
+
+
 def new_track(_data, current_song_id,song):
             #first listen add basic info to data
                     _data["tracks"][current_song_id] = {
@@ -131,6 +145,7 @@ def new_track(_data, current_song_id,song):
                         "last_listened"  : current_timestamp(),
                         "artist" : song.get("artists")[0].get("name"),
                         "artist_id" : song.get("artists")[0].get("id"),
+                        "genre" : get_genres(song.get("artists")[0].get("id")),
                         "album" : song.get("album", {}).get("name", "Unknown"),
                         "genre" : None,
                         "times_skipped" : 0,
@@ -209,6 +224,8 @@ def spotify_loop():
             print(f"--> Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
             term_helper()
             #myemail.send_email(myemail.MY_EMAIL,"Autosave",f"Autosaving data at {datetime.datetime.fromtimestamp(last_save_time)}")
+
+        #Hourly notifications option    
         """
         if current_timestamp() - last_notif_time > 3600: #1 hour
             last_notif_time = current_timestamp()
@@ -242,10 +259,6 @@ def spotify_loop():
                 }
                 r = requests.get(CURRENT_SONG_URL, headers=headers, timeout = 10)
         except Exception as e:
-            try:
-                myemail.send_email(myemail.MY_EMAIL,"Encountered Error", f"Caught error with url request: \n {e}")
-            except Exception as e:
-                print(f"Error while trying to send email report: {e}")
             print(f"Caught error with url request : {e}")
             time.sleep(1)
             continue
@@ -258,10 +271,10 @@ def spotify_loop():
 
         if r.status_code == 200 and r.content:
 
-            #"""" debug
+            """" debug
             with open("recent_req.json", "w") as f:
                 json.dump(json.loads(r.content), f, indent=4)
-           # """
+            """
             response = json.loads(r.content)
             song = json.loads(r.content).get("item")
 
@@ -284,17 +297,20 @@ def spotify_loop():
                     term_helper()
                     paused = 0
 
-            #if song changed,update the data file THEN change current_song_id
+            #if there is a song playing and the song playing currently is not what was just playing in the previous loop
+            # song changed!
             if song and current_song_id != song.get("id"): 
-                #check for skip
 
-                #if you skip to a new song while previous one was paused, subtract time paused
+                #If you skip songs while paused, the time you were paused on that track is subtracted from your total time spent listening to that track
                 if paused and current_song_id != -1:
                     tp = current_timestamp() - time_paused
                     _data["tracks"][current_song_id]["seconds_listened"] -= tp
                     _data["dates"][get_midnight(current_timestamp())]["seconds_listened"] -= tp
 
+                #Updates all data about the song
                 update_data(_data,current_song_id)
+                
+                #Perform math to check the song was completed, if not than increase the 'skip count' of the song
                 if current_song_id != -1 and skipped(_data["tracks"][current_song_id],seconds_listened_when_track_begin, duration_s):
                     _data["tracks"][current_song_id]["times_skipped"] += 1
 
@@ -308,20 +324,41 @@ def spotify_loop():
                 duration_s = song.get("duration_ms") / 1000
                 if current_song_id != -1:
 
-
+                    #If this is the first time listening to this song we need to add it
                     if current_song_id != -1 and current_song_id not in _data["tracks"]:
                         new_track(_data, current_song_id,song)
                     else:
-                        _data["tracks"][current_song_id]["times_played"] += 1
+                    #Since we have listened to this song before, increase the amount of times we have listened to it
                     
+                        _data["tracks"][current_song_id]["times_played"] += 1
+
+                    #Fill in data that was absent in previous version
+                    try:
+                        if _data["tracks"][current_song_id]["artist_id"] == None:
+                            _data["tracks"][current_song_id]["artist_id"] = song.get("artists")[0].get("id")
+                    except KeyError:
+                        _data["tracks"][current_song_id]["artist_id"] = song.get("artists")[0].get("id")
+
+
+                    #Fill in data that was absent in previous version
+                    try:
+                        if _data["tracks"][current_song_id]["track_length"] == None:
+                            _data["tracks"][current_song_id]["track_length"] = duration_s
+                    except KeyError:
+                         _data["tracks"][current_song_id]["track_length"] = duration_s
+
+                    try:
+                        if _data["tracks"][current_song_id]["genre"] == None:
+                            _data["tracks"][current_song_id]["genre"] = get_genres(_data["tracks"][current_song_id].get("artist_id"))
+                    except KeyError:
+                            _data["tracks"][current_song_id]["genre"] = get_genres(_data["tracks"][current_song_id].get("artist_id"))
+                
+                    #How long had we previously listened to this track? 
+                    #This is saved for later to check if we listened to the entire track or if we skipped
                     seconds_listened_when_track_begin = _data["tracks"][current_song_id].get("seconds_listened")
 
-                    #fix for pausing -> we just started listening so this is now the "last time we listened to it"
+                    #Update most recent listen of song to now
                     _data["tracks"][current_song_id]["last_listened"] = current_timestamp()
-
-
-
-                current_song_id = song.get("id")
 
 
         elif current_song_id != -1: #switched to not playing anything
@@ -334,7 +371,6 @@ def spotify_loop():
             time.sleep(1)
 
         except KeyboardInterrupt:
-            #print(f'\t START{_data["dates"][get_midnight(current_timestamp())]["seconds_listened"] /60 } minutes listened today')
             safe_save()
             exit()
     safe_save()

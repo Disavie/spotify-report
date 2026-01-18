@@ -4,6 +4,14 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+
+commit #14 : 
+    1/17/26
+    added genre tracking
+    added some comments in spotify.spotify_loop
+    backfill genretracking, artistid, track lengths
+    
+
 -> set recipient email command
 -> genre tracker
 -> notification data parsing:
