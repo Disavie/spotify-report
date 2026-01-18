@@ -7,6 +7,7 @@ import time
 import datetime
 import myemail
 import threading
+import visualizer
 
 stop_event = threading.Event()
 spotify_thread = None
@@ -129,7 +130,6 @@ def get_genres(artist_id):
                     "Authorization": f"Bearer {ACCESS_TOKEN}"
                 }) #Tries the saved token in .env
 
-    print(r.status_code)
     if r.status_code == 200:
         response = json.loads(r.content)
         return response.get("genres")
@@ -188,7 +188,12 @@ def safe_save():
 
 def get_todays_stats():
     x = opendata()
-    return json.dumps(x["dates"][get_midnight(current_timestamp())],indent=4)
+    today_seconds = x["dates"][get_midnight(current_timestamp())].get("seconds_listened")
+    todays_songs  = visualizer.get_top_songs(5)
+    ret_s = f"{today_seconds/60} minutes listened or {today_seconds/3600} hours"
+    ret_s += f"\n Today's top songs: {today_seconds}"
+    return ret_s
+
 def term_helper():
     print("> ", end="", flush=True)
 
@@ -316,7 +321,7 @@ def spotify_loop():
 
 
 
-                print(f"Current Song : \"{song.get('name')}\"")
+                print(f"Current Song : \"{song.get('name')}\" by {song.get("artists")[0].get("name")}")
                 term_helper()
 
                 #update song to track if song swapped

@@ -38,7 +38,7 @@ def main():
             try:
                 val = input("enter condition to sort by (times_played, seconds_listened, etc)\n> ").strip().lower()
                 visualizer.parse_that_shit(val)
-                print("dumped sorted in sorted.json (descending)")
+                print("dumped in result.json (descending)")
             except KeyError:
                 print("KeyError, did you have a typo?")
         elif cmd == "push":
@@ -48,6 +48,16 @@ def main():
                 spotify.safe_save()
             else:
                 print("saving before program running is not allowed")
+        elif cmd.strip() == "search -a":
+            val = input("enter artist to search song data of\n> ")
+            visualizer.retrieve_info_of_artist(val)
+            print("dumped in result.json (descending)")
+        elif cmd.strip() == "search -s":
+            val = input("enter song to retrieve song data of\n> ")
+            visualizer.retrieve_info_of_song(val.lower())
+            print("dumped in result.json (descending)")
+
+
         
 if __name__ == "__main__":
     main()

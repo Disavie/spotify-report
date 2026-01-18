@@ -4,13 +4,20 @@ A daily, weekly, and yearly Spotify “mini-wrapped” that summarizes your list
 
 Test
 
+commit #15:
+        search -a -> searches for all data about songs of an artist
+            > xxx
+        search -s -> searchs for all data about songs including "xxx"
+            > xxx
+        
+        added better formatting to midnight notification
 
 commit #14 : 
     1/17/26
     added genre tracking
     added some comments in spotify.spotify_loop
     backfill genretracking, artistid, track lengths
-    
+
 
 -> set recipient email command
 -> genre tracker
@@ -28,6 +35,7 @@ commit #13:
         sort
         save
         push -> sends notification
+
 
 
 commit #12: hourly notifications

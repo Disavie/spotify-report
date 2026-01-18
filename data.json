@@ -255,14 +255,18 @@
         },
         "0z3YYobsavHguLTgqg5GC1": {
             "name": "Picture in My Mind",
-            "seconds_listened": 192.4573359489441,
+            "seconds_listened": 371.07492899894714,
             "first_listened": 1768309240.805004,
-            "last_listened": 1768486906.89955,
+            "last_listened": 1768696389.846388,
             "artist": "PinkPantheress",
             "album": "Picture in my mind",
-            "genre": null,
+            "genre": [
+                "bedroom pop"
+            ],
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 3,
+            "artist_id": "78rUTD7y6Cy67W1RVzYs7t",
+            "track_length": 176.93
         },
         "15SlcE8nR6jy5apDPBcnJE": {
             "name": "Mr. Loverman",
@@ -409,14 +413,16 @@
         },
         "1wuHkRdP7QBW75930TSSZa": {
             "name": "g e t a w a y",
-            "seconds_listened": 219.7379927635193,
+            "seconds_listened": 324.85415291786194,
             "first_listened": 1768317361.318334,
-            "last_listened": 1768487550.547179,
+            "last_listened": 1768697033.434634,
             "artist": "Pity Party (Girls Club)",
             "album": "g e t a w a y",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 2
+            "genre": [],
+            "times_skipped": 1,
+            "times_played": 4,
+            "artist_id": "5J3QKfJDFyjR3Q2qRcRaIU",
+            "track_length": 109.2
         },
         "4TZ2Ub8bZh4LTs06eANDXa": {
             "name": "Lights - Sped Up Version",
@@ -431,14 +437,16 @@
         },
         "22nyEAEM29tcBRhukR089b": {
             "name": "Icon",
-            "seconds_listened": 393.6357398033142,
+            "seconds_listened": 586.4572677612305,
             "first_listened": 1768328017.064675,
-            "last_listened": 1768487128.350282,
+            "last_listened": 1768696611.273804,
             "artist": "Jaden",
             "album": "SYRE",
-            "genre": null,
-            "times_skipped": 1,
-            "times_played": 2
+            "genre": [],
+            "times_skipped": 2,
+            "times_played": 4,
+            "artist_id": "0xOeVMOz2fVg5BJY3N6akT",
+            "track_length": 220.995
         },
         "6eZFiHEV6nKcEJj3EHkeWU": {
             "name": "Fantaisie Impromptu, Op. 66",
@@ -508,14 +516,18 @@
         },
         "2rrq3SGYxk90xLx5fMmPhZ": {
             "name": "I Must Apologise",
-            "seconds_listened": 217.2847068309784,
+            "seconds_listened": 326.1143579483032,
             "first_listened": 1768329423.715673,
-            "last_listened": 1768486729.104599,
+            "last_listened": 1768696211.121447,
             "artist": "PinkPantheress",
             "album": "to hell with it",
-            "genre": null,
+            "genre": [
+                "bedroom pop"
+            ],
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 3,
+            "artist_id": "78rUTD7y6Cy67W1RVzYs7t",
+            "track_length": 108.373
         },
         "2YkIDPL5lGhRhomCq4S2RO": {
             "name": "My Way - 2008 Remastered",
@@ -530,14 +542,20 @@
         },
         "5ruzrDWcT0vuJIOMW7gMnW": {
             "name": "The Adults Are Talking",
-            "seconds_listened": 613.4758207798004,
+            "seconds_listened": 773.3740930557251,
             "first_listened": 1768329809.302187,
-            "last_listened": 1768485420.454617,
+            "last_listened": 1768694885.608025,
             "artist": "The Strokes",
             "album": "The New Abnormal",
-            "genre": null,
+            "genre": [
+                "garage rock",
+                "indie rock",
+                "alternative rock"
+            ],
             "times_skipped": 1,
-            "times_played": 3
+            "times_played": 5,
+            "artist_id": "0epOFNiUfyON9EYx7Tpr6V",
+            "track_length": 309.053
         },
         "62yD1JVWHNG854ZauR5aBR": {
             "name": "can't get you out of my head",
@@ -552,14 +570,18 @@
         },
         "7g1251d41qVR8kq6yz9XXa": {
             "name": "pouring outside",
-            "seconds_listened": 313.47417521476746,
+            "seconds_listened": 395.2571144104004,
             "first_listened": 1768330279.098621,
-            "last_listened": 1768487707.301966,
+            "last_listened": 1768697115.395744,
             "artist": "dyl dion",
             "album": "pouring outside",
-            "genre": null,
+            "genre": [
+                "bedroom pop"
+            ],
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 3,
+            "artist_id": "6oqHT4S7trO98T8NkbQJ4h",
+            "track_length": 156.25
         },
         "5odlY52u43F5BjByhxg7wg": {
             "name": "golden hour",
@@ -585,25 +607,31 @@
         },
         "6F5mZpEEjhsAW8UEqbIpz1": {
             "name": "Tired",
-            "seconds_listened": 400.3048481941223,
+            "seconds_listened": 413.4660542011261,
             "first_listened": 1768330829.722719,
-            "last_listened": 1768486392.0585,
+            "last_listened": 1768695852.93067,
             "artist": "beabadoobee",
             "album": "Patched Up",
-            "genre": null,
+            "genre": [
+                "bedroom pop"
+            ],
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 3,
+            "artist_id": "35l9BRT7MXmM8bv2WDQiyB",
+            "track_length": 199.514
         },
         "5JKnYZOhSP7rOK0jPYcCjV": {
             "name": "t r a n s p a r e n t s o u l feat. Travis Barker",
-            "seconds_listened": 337.1914846897125,
+            "seconds_listened": 506.9299886226654,
             "first_listened": 1768331029.790584,
-            "last_listened": 1768487441.038787,
+            "last_listened": 1768696924.399237,
             "artist": "WILLOW",
             "album": "lately I feel EVERYTHING",
-            "genre": null,
+            "genre": [],
             "times_skipped": 0,
-            "times_played": 2
+            "times_played": 3,
+            "artist_id": "3rWZHrfrsPBxVy692yAIxF",
+            "track_length": 168.398
         },
         "5roJHNawFJN8OObQtPr4vm": {
             "name": "Lobster",
@@ -3274,14 +3302,18 @@
         },
         "41P6Tnd8KIHqON0QIydx6a": {
             "name": "the perfect pair",
-            "seconds_listened": 178.0605251789093,
+            "seconds_listened": 206.12758111953735,
             "first_listened": 1768486013.759991,
-            "last_listened": 1768486191.820516,
+            "last_listened": 1768695622.112526,
             "artist": "beabadoobee",
             "album": "Beatopia",
-            "genre": null,
+            "genre": [
+                "bedroom pop"
+            ],
             "times_skipped": 0,
-            "times_played": 1
+            "times_played": 2,
+            "artist_id": "35l9BRT7MXmM8bv2WDQiyB",
+            "track_length": 177.533
         },
         "5K9tfeoiztw94dyWzF39jq": {
             "name": "moment",
@@ -3296,25 +3328,31 @@
         },
         "4S4QJfBGGrC8jRIjJHf1Ka": {
             "name": "Pain",
-            "seconds_listened": 99.34756183624268,
+            "seconds_listened": 160.5370659828186,
             "first_listened": 1768486522.100608,
-            "last_listened": 1768486621.44817,
+            "last_listened": 1768696102.150526,
             "artist": "PinkPantheress",
             "album": "to hell with it",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
+            "genre": [
+                "bedroom pop"
+            ],
+            "times_skipped": 1,
+            "times_played": 2,
+            "artist_id": "78rUTD7y6Cy67W1RVzYs7t",
+            "track_length": 98.544
         },
         "1jVjOcs7QeQZJXScbqvofI": {
             "name": "Time Machine",
-            "seconds_listened": 144.06547904014587,
+            "seconds_listened": 276.1754651069641,
             "first_listened": 1768487128.350282,
-            "last_listened": 1768487272.415761,
+            "last_listened": 1768696754.540674,
             "artist": "WILLOW",
             "album": "WILLOW",
-            "genre": null,
-            "times_skipped": 0,
-            "times_played": 1
+            "genre": [],
+            "times_skipped": 1,
+            "times_played": 4,
+            "artist_id": "3rWZHrfrsPBxVy692yAIxF",
+            "track_length": 143.64
         },
         "751srcHf5tUqcEa9pRCQwP": {
             "name": "Tek It",
@@ -8075,7 +8113,7 @@
             "seconds_listened": 38488.97302508354
         },
         "2026-01-17 00:00:00": {
-            "seconds_listened": 8521.76031255722
+            "seconds_listened": 9753.092712402344
         }
     }
 }
